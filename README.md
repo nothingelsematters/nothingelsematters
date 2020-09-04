@@ -10,49 +10,37 @@
 
 2017-2021: **BCs, Computer Science**: ITMO University, Computer Technologies Department (Saint-Petersburg)
 
-<details>
-    <summary><h2 style="display: inline;">Employment</h2></summary>
-    <ul>
-        <li>
-            <p>July-August 2018</p>
-            <b>Software Engineer Intern in Reddle:</b> participated in deploying a web service using Python Django framework
-        </li>
-        <li>
-            <p>February-March 2020</p>
-            <b>Software Engineer Practice in Epam Systems:</b> developing desktop application and web service performing different image transformations
-        </li>
-        <li>
-            <p>March 2020 - now</p>
-            <b>Huawei Technologies</b>
-        </li>
-    </ul>
-</details>
+## Employment
 
-<details style="display: inline-block;">
-    <summary style="display: inline-block;"><h2 style="display: inline-block;">Skills</h2></summary>
-    <h3>Programming languages</h3>
-    <ul>
-        <li>
-            <b>Java and Kotlin:</b> translator, parallel programming
-        </li>
-        <li>
-            <b>C++:</b> general purposes, Qt framework, algorithms and data structures implementations
-        </li>
-        <li>
-            <b>Haskell:</b> eDSL, parsers, multithreading, mathematical logic
-        </li>
-        <li>
-            <b>Python:</b> machine learning projects
-        </li>
-        <li>
-            Basic knowledge of <b>OCaml</b> and <b>JavaScript</b>
-        </li>
-    </ul>
-    <h3>Technologies</h3>
-    <p><b>GNU/Linux</b>, <b>git</b>, <b>nix</b>, <b>Tomcat</b>, <b>Maven</b>, <b>Gradle</b></p>
-    <h3>Languages</h3>
-    <p><b>Russian</b> (native), <b>English</b> (C1), <b>German</b> (B1)</p>
-</details>
++ July-August 2018
+
+    **Software Engineer Intern in Reddle:** participated in deploying a web service using Python Django framework
+
++ February-March 2020
+
+    **Software Engineer Practice in Epam Systems:** developing desktop application and web service performing different image transformations
+
++ March 2020 - now
+
+    **Huawei Technologies**
+
+## Skills
+
+### Programming languages
+
++ **Java and Kotlin:** translator, parallel programming
++ **C++:** general purposes, Qt framework, algorithms and data structures implementations
++ **Haskell:** eDSL, parsers, multithreading, mathematical logic
++ **Python:** machine learning projects
++ Basic knowledge of **OCaml** and **JavaScript**
+
+### Technologies
+
+**GNU/Linux**, **git**, **nix**, **Tomcat**, **Maven**, **Gradle**
+
+### Languages
+
+**Russian** (native), **English** (C1), **German** (B1)
 
 ## Projects
 
