@@ -12,17 +12,12 @@
 
 ## Employment
 
-+ July-August 2018
-
-    **Software Engineer Intern in Reddle:** participated in deploying a web service using Python Django framework
-
-+ February-March 2020
-
-    **Software Engineer Practice in Epam Systems:** developing desktop application and web service performing different image transformations
-
-+ March 2020 - now
-
-    **Huawei Technologies**
++ July-August 2018  
+  **Software Engineer Intern in Reddle:** participated in deploying a web service using Python Django framework
++ February-March 2020  
+  **Software Engineer Practice in Epam Systems:** developing desktop application and web service performing different image transformations
++ March 2020 - now  
+  **Software Engineer Intern in Huawei Technologies**
 
 ## Skills
 
