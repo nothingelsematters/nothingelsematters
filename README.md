@@ -45,3 +45,4 @@
 ## Projects
 
 + [Basic ITMO University homeworks repository](http://github.com/nothingelsematters/university)
++ [Telegram bot for pinging out different groups of people](http://github.com/pool-party/pull-party-bot) ([@PullPartyBot](http://t.me/PullPartyBot))
