@@ -2,6 +2,7 @@
 
 [![Github](https://img.shields.io/badge/github-nothingelsematters-black?logo=github)](https://github.com/nothingelsematters)
 [![Telegram](https://img.shields.io/badge/telegram-itsfuntofantasize-blue?logo=telegram)](https://t.me/itsfuntofantasize)
+[![Twitter](https://img.shields.io/badge/twitter-imsickdontjudge-blue?logo=twitter)](https://twitter.com/imsickdontjudge)
 [![Email](https://img.shields.io/badge/email-daretoodefy@gmail.com-red?logo=gmail)](mailto:daretoodefy@gmail.com)
 
 > Saint-Petersburg, Russia
