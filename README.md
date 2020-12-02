@@ -41,4 +41,7 @@
 ## Projects
 
 + [Basic ITMO University homeworks repository](http://github.com/nothingelsematters/university)
++ [LALR grammar parser generator in Kotlin](http://github.com/nothingelsematters/lalr-generator)
 + [Telegram bot for pinging out different groups of people](http://github.com/pool-party/pull-party-bot) ([@PullPartyBot](http://t.me/PullPartyBot))
++ [Miscellaneous rare contest task solutions](http://github.com/pool-party/contests)
++ [Custom NixOS configuration files](http://github.com/pool-party/nixconfigs)
