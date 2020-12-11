@@ -1,11 +1,13 @@
 # Simon Naumov
 
+> Saint-Petersburg, Russia
+
 [![Github](https://img.shields.io/badge/github-nothingelsematters-black?logo=github)](https://github.com/nothingelsematters)
 [![Telegram](https://img.shields.io/badge/telegram-itsfuntofantasize-blue?logo=telegram)](https://t.me/itsfuntofantasize)
 [![Twitter](https://img.shields.io/badge/twitter-imsickdontjudge-blue?logo=twitter)](https://twitter.com/imsickdontjudge)
 [![Email](https://img.shields.io/badge/email-daretoodefy@gmail.com-red?logo=gmail)](mailto:daretoodefy@gmail.com)
 
-> Saint-Petersburg, Russia
+[![Simon's github stats](https://github-readme-stats.vercel.app/api?username=nothingelsematters)](https://anuraghazra/github-readme=stats)
 
 ## Education
 
@@ -13,11 +15,11 @@
 
 ## Employment
 
-+ July-August 2018  
++ July-August 2018 \
   **Software Engineer Intern in Reddle:** participated in deploying a web service using Python Django framework
-+ February-March 2020  
++ February-March 2020 \
   **Software Engineer Practice in Epam Systems:** developing desktop application and web service performing different image transformations
-+ March 2020 - now  
++ March 2020 - now \
   **Software Engineer Intern in Huawei Technologies**
 
 ## Skills
