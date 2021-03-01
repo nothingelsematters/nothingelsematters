@@ -13,23 +13,24 @@
 
 ## Employment
 
-+ July-August 2018 \
+- July-August 2018 \
   **Software Engineer Intern** in **Reddle:** participated in deploying a web service using **Python Django** framework
-+ February-March 2020 \
+- February-March 2020 \
   **Software Engineer Practice** in **Epam Systems:** developing **Kotlin** desktop application and web service performing different image transformations
-+ March 2020 - now \
+- March 2020 - now \
   **Software Engineer Intern** in **Huawei Technologies**
 
 ## Skills
 
 ### Programming languages
 
-+ **Kotlin**, **Java**: translation methods, parallel programming, distributed systems
-+ **C++**: general purposes, Qt framework, algorithms and data structures implementations
-+ **Haskell**  eDSL, parsers, multithreading, mathematical logic and type theory
-+ **Python**: machine learning projects
-+ Basic knowledge of **JavaScript**, **TypeScript** and **OCaml**
+- **Kotlin**, **Java**: translation methods, parallel programming, distributed systems
+- **C++**: general purposes, Qt framework, algorithms and data structures implementations
+- **Haskell**: eDSL, parsers, multithreading, mathematical logic and type theory
+- **SQL**: portable code, requests, indices, triggers, stored procedures, plpgsql
+- **Python**: machine learning projects
+- Basic knowledge of **Rust**, **JavaScript**, **TypeScript** and **OCaml**
 
-**Technologies**: GNU/Linux, git, nix, Tomcat, Maven, Gradle
+**Technologies**: GNU/Linux, git, nix, Tomcat, Maven, Gradle, GitHub, GitHub actions, PostgreSQL
 
 **Languages**: Russian (native), English (C1), German (B1)
