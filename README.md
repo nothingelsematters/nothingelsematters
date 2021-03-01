@@ -9,7 +9,8 @@
 
 ## Education
 
-2017-2021: **BCs, Computer Science**: ITMO University, Computer Technologies Department (Saint-Petersburg)
+2017-2021: **BCs, Computer Science**: ITMO University, Computer Technologies Department (Saint-Petersburg) \
+Thesis topic: "Runtime analysis of evolutionary algorithms on asymmetric Jump functions"
 
 ## Employment
 
