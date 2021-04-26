@@ -10,16 +10,16 @@
 ## Education
 
 2017-2021: **BCs, Computer Science**: ITMO University, Computer Technologies Department (Saint-Petersburg) \
-Thesis topic: "Runtime analysis of evolutionary algorithms on asymmetric Jump functions"
+*Bachelor Thesis*: "Runtime analysis of evolutionary algorithms on asymmetric Jump functions"
 
 ## Employment
 
 - July-August 2018 \
-  **Software Engineer Intern** in **Reddle:** participated in deploying a web service using **Python Django** framework
+  **Reddle / Software Engineer Intern:** deploying a web service using **Python Django** framework
 - February-March 2020 \
-  **Software Engineer Practice** in **Epam Systems:** developing **Kotlin** desktop application and web service performing different image transformations
+  **Epam Systems / Software Engineer Practice:** developing a **Kotlin** web service performing different image transformations
 - March 2020 - now \
-  **Software Engineer Intern** in **Huawei Technologies**
+  **Huawei Technologies / Cloud Service Java Developer**
 
 ## Skills
 
@@ -30,7 +30,7 @@ Thesis topic: "Runtime analysis of evolutionary algorithms on asymmetric Jump fu
 - **Haskell**: eDSL, parsers, multithreading, mathematical logic and type theory
 - **SQL**: portable code, requests, indices, triggers, stored procedures, plpgsql
 - **Python**: machine learning projects
-- Basic knowledge of **Rust**, **JavaScript**, **TypeScript** and **OCaml**
+- Basic knowledge of **Rust**, **TypeScript**, **JavaScript** and **OCaml**
 
 **Technologies**: GNU/Linux, git, nix, Tomcat, Maven, Gradle, GitHub, GitHub actions, PostgreSQL
 
