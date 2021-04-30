@@ -9,29 +9,41 @@
 
 ## Education
 
-2017-2021: **BCs, Computer Science**: ITMO University, Computer Technologies Department (Saint-Petersburg) \
+2017-2021: **BSc, Computer Science**: ITMO University, Computer Technologies Department (Saint-Petersburg) \
 *Bachelor Thesis*: "Runtime analysis of evolutionary algorithms on asymmetric Jump functions"
 
-## Employment
+## Experience
 
-- July-August 2018 \
-  **Reddle / Software Engineer Intern:** deploying a web service using **Python Django** framework
-- February-March 2020 \
-  **Epam Systems / Software Engineer Practice:** developing a **Kotlin** web service performing different image transformations
+- July - August 2018 \
+  **Reddle, Software Engineer Intern** \
+  Developing and deploying a web site back-end for ventilation and heating scheme configuration \
+  **Python**, **Django framework**
+
+- February - March 2020 \
+  **Epam Systems, Software Engineer Practice** \
+  Developing a web service to perform different image transformations \
+  **Kotlin**, **Gradle**
+
 - March 2020 - now \
-  **Huawei Technologies / Cloud Service Java Developer**
+  **Huawei Technologies, Cloud Service Java Developer** \
+  **Java**, **Maven**, **Gremlin** query langugage, **TrinoDB** distributed SQL query engine
 
 ## Skills
 
 ### Programming languages
 
-- **Kotlin**, **Java**: translation methods, parallel programming, distributed systems
-- **C++**: general purposes, Qt framework, algorithms and data structures implementations
-- **Haskell**: eDSL, parsers, multithreading, mathematical logic and type theory
-- **SQL**: portable code, requests, indices, triggers, stored procedures, plpgsql
-- **Python**: machine learning projects
+- **Kotlin and Java:** web services, translation methods, parallel programming, distributed systems
+
+- **C++:** algorithms and data structures implementations, Qt framework
+
+- **Haskell:** parsers, eDSL, multithreading, mathematic logic and type theory
+
+- **SQL:** portable code, requests, indices, triggers, stored procedures, plpgsql
+
+- **Python:** machine learning projects
+
 - Basic knowledge of **Rust**, **TypeScript**, **JavaScript** and **OCaml**
 
-**Technologies**: GNU/Linux, git, nix, Tomcat, Maven, Gradle, GitHub, GitHub actions, PostgreSQL
+**Technologies**: GNU/Linux, git, nix, Tomcat, Gradle, Maven, GitHub, GitHub actions, PostgreSQL
 
 **Languages**: Russian (native), English (C1), German (B1)
