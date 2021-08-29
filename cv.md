@@ -7,7 +7,10 @@ Education
 2017 - 2021
 : **BSc, Computer Science**: ITMO University, Computer Technologies Department (Saint-Petersburg)
 
-: *Bachelor Thesis*: "Runtime Analysis of Evolutionary Algorithms on Asymmetric Jump Functions"
+: *Thesis: Runtime Analysis of Evolutionary Algorithms on Asymmetric Jump Functions*
+
+2021 - (2023)
+: **MSc, Computer Sceince**: ITMO University, Programming and Artificial Intelligence (Saint-Petersburg)
 
 Experience
 ----------

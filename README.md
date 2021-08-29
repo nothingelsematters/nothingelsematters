@@ -4,6 +4,8 @@
 
 - 2017-2021: **BSc, Computer Science**: ITMO University, Computer Technologies Department (Saint-Petersburg)
 
+- 2021-(2023): **MSc, Computer Sceince**: ITMO University, Programming and Artificial Intelligence (Saint-Petersburg)
+
 ## Experience
 
 - March 2020 - now: **Huawei Technologies, Cloud Service Java Developer**
