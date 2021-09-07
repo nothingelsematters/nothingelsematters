@@ -12,6 +12,12 @@ Education
 2021 - (2023)
 : **MSc, Computer Sceince**: ITMO University, Programming and Artificial Intelligence (Saint-Petersburg)
 
+Conferences
+-----------
+
+FOGA 2021
+: **The Effect of Non-symmetric Fitness**: The Analysis of Crossover-Based Algorithms on RealJump Functions (*Denis Antipov, Simon Naumov*)
+
 Experience
 ----------
 
