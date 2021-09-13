@@ -22,7 +22,7 @@ Experience
 ----------
 
 March 2020 - now
-: **Huawei Technologies, Cloud Service Java Developer**
+: **Huawei Technologies, Middle Java Developer**
 
 : Developing API aggregation service for a cloud application platform
 
@@ -50,6 +50,8 @@ Programming Languages
 : Confident knowledge of **Kotlin and Java**: web services, translation methods, parallel programming,
   distributed systems
 
+: Advanced knowledge of **Rust**
+
 : Advanced knowledge of **C++**: algorithms and data structures implementations, Qt framework
 
 : **SQL**: portable code, requests, indices, triggers, stored procedures, plpgsql
@@ -58,7 +60,7 @@ Programming Languages
 
 : **Python**: machine learning projects
 
-: Basic knowledge of **Rust**, **TypeScript**, **JavaScript** and **OCaml**
+: Basic knowledge of **TypeScript**, **JavaScript** and **OCaml**
 
 Technologies
 : **GNU/Linux**, **git**, **nix**, **Gradle**, **Maven**, **GitHub**, **GitHub actions**, **PostgreSQL**,
