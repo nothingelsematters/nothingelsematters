@@ -16,7 +16,7 @@
 
 ## Skills
 
-**Programming languages**:
+### Programming languages
 
 - Experienced knowledge of **Kotlin and Java**
 
@@ -24,6 +24,4 @@
 
 - Basic knowledge of **Python**, **TypeScript**, **JavaScript** and **OCaml**
 
-**Technologies**: GNU/Linux, git, nix, Gradle, Maven, GitHub, GitHub actions, PostgreSQL, docker, docker compose
-
-**Languages**: Russian (native), English (C1), German (B1)
+[Learn more...](https://github.com/nothingelsematters/nothingelsematters/blob/master/cv.pdf)
