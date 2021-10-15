@@ -4,13 +4,13 @@ Simon Naumov
 Education
 ---------
 
-2017 - 2021
-: **BSc, Computer Science**: ITMO University, Computer Technologies Department (Saint-Petersburg)
+2021 -- (2023)
+: **MSc, Computer Science**: ITMO University, Programming and Artificial Intelligence (Saint Petersburg)
+
+2017 -- 2021
+: **BSc, Computer Science**: ITMO University, Computer Technologies Department (Saint Petersburg)
 
 : *Thesis: Runtime Analysis of Evolutionary Algorithms on Asymmetric Jump Functions*
-
-2021 - (2023)
-: **MSc, Computer Sceince**: ITMO University, Programming and Artificial Intelligence (Saint-Petersburg)
 
 Conferences
 -----------
@@ -21,23 +21,23 @@ FOGA 2021
 Experience
 ----------
 
-March 2020 - now
-: **Huawei Technologies, Middle Java Developer**
+March 2020 -- October 2021
+: **Huawei Technologies**, **Junior → Middle Java Developer**
 
-: Developing API aggregation service for a cloud application platform
+: Developing API and data aggregation service for a cloud application platform
 
 : **Java**, **Maven**, **Gremlin** query langugage, **TrinoDB** distributed SQL query engine,
   microservice architecture
 
-February - March 2020
-: **Epam Systems, Software Engineer Practice**
+February -- March 2020
+: **Epam Systems**, **Software Engineer Intern**
 
 : Developing a web service to perform different image transformations
 
 : **Kotlin**, **Gradle**
 
-July - August 2018
-: **Reddle, Software Engineer Intern**
+July -- August 2018
+: **Reddle**, **Software Engineer Intern**
 
 : Developing and deploying a web site back-end for ventilation and heating scheme configuration
 
@@ -73,7 +73,7 @@ Pet Projects
 ------------
 
 [Pull Party telegram bot](https://github.com/pool-party/pull-party-bot)
-: A telegram bot that can ping the members of a certain defined group, suggest team on misspelling and manage teams. 
+: A telegram bot that can ping the members of a certain defined group, suggest team on misspelling and manage teams.
 
 : **Kotlin**, **Gradle**
 
