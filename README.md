@@ -8,19 +8,21 @@
 
 ## Experience
 
-- March 2020 - October 2021: **Huawei Technologies**, **Middle Java Developer**
+- November 2021 - now: **Middle Rust Developer** @ **Tinkoff**
 
-- February - March 2020: **Epam Systems**, **Software Engineer Intern**
+- March 2020 - October 2021: **Middle Java Developer** @ **Huawei Technologies**
 
-- July - August 2018: **Reddle**, **Software Engineer Intern**
+- February - March 2020: **Software Engineer Intern** @ **Epam Systems**
+
+- July - August 2018: **Software Engineer Intern** @ **Reddle**
 
 ## Skills
 
 ### Programming languages
 
-- Experienced knowledge of **Kotlin and Java**
+- Experienced knowledge of **Java**, **Kotlin** and **Rust**
 
-- Advanced knowledge of **Rust**, **Haskell**, **C++**, **SQL**
+- Advanced knowledge of **C++**, **SQL**, **Haskell**
 
 - Basic knowledge of **Python**, **TypeScript**, **JavaScript** and **OCaml**
 

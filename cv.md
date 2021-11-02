@@ -21,6 +21,13 @@ FOGA 2021
 Experience
 ----------
 
+November 2021 -- now
+: **Tinkoff**, **Middle Rust Developer**
+
+: Developing and deploying the payment system
+
+: **Rust**, **Cargo**
+
 March 2020 -- October 2021
 : **Huawei Technologies**, **Junior → Middle Java Developer**
 
