@@ -8,7 +8,7 @@
 
 ## Experience
 
-- November 2021 - now: **Middle Rust Developer** @ **Tinkoff**
+- November 2021 - present: **Middle Rust Developer** @ **Tinkoff**
 
 - March 2020 - October 2021: **Middle Java Developer** @ **Huawei Technologies**
 
@@ -20,7 +20,7 @@
 
 ### Programming languages
 
-- Experienced knowledge of **Java**, **Kotlin** and **Rust**
+- Experienced knowledge of **Rust**, **Kotlin** and **Java**
 
 - Advanced knowledge of **C++**, **SQL**, **Haskell**
 

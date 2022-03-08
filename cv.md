@@ -10,7 +10,10 @@ Education
 2017 -- 2021
 : **BSc, Computer Science**: ITMO University, Computer Technologies Department (Saint Petersburg)
 
-: *Thesis: Runtime Analysis of Evolutionary Algorithms on Asymmetric Jump Functions*
+: Thesis: *Runtime Analysis of Evolutionary Algorithms on Asymmetric Jump Functions*
+
+: Repository with studying projects:
+  [github.com/nothingelsematters/university](https://github.com/nothingelsematters/university)
 
 Conferences
 -----------
@@ -18,83 +21,89 @@ Conferences
 FOGA 2021
 : **The Effect of Non-symmetric Fitness**: The Analysis of Crossover-Based Algorithms on RealJump Functions (*Denis Antipov, Simon Naumov*)
 
+: Conference page: [fhv.at/foga2021](https://www.fhv.at/foga2021/)
+
 Experience
 ----------
 
-November 2021 -- now
+Nov 2021 -- present
 : **Tinkoff**, **Middle Rust Developer**
 
-: Developing and deploying the payment system
+: Developing and deploying the payment system and adjacent services performing miscellaneous checks for transactions
 
-: **Rust**, **Cargo**
+: **Keywords**: Rust, Cargo, microservice architecture, Oracle DB, PostgreSQL
 
-March 2020 -- October 2021
+Mar 2020 -- Oct 2021
 : **Huawei Technologies**, **Junior → Middle Java Developer**
+
+: Automatisation of Big Data aggregation configuration
 
 : Developing API and data aggregation service for a cloud application platform
 
-: **Java**, **Maven**, **Gremlin** query langugage, **TrinoDB** distributed SQL query engine,
-  microservice architecture
+: **Keywords**: Java, Maven, Gremlin query langugage, TrinoDB distributed SQL query engine, \
+  microservice architecture, PostgreSQL, MySQL, graph databases
 
-February -- March 2020
+Feb -- Mar 2020
 : **Epam Systems**, **Software Engineer Intern**
 
 : Developing a web service to perform different image transformations
 
-: **Kotlin**, **Gradle**
+: **Keywords**: Kotlin, Gradle
 
-July -- August 2018
+Jul -- Aug 2018
 : **Reddle**, **Software Engineer Intern**
 
 : Developing and deploying a web site back-end for ventilation and heating scheme configuration
 
-: **Python**, **Django framework**
+: **Keywords**: Python, Django framework
+
+Side Projects
+------------
+
+Jul 2020 -- Aug 2021
+: **Telegram Mentions Bot**
+
+: A telegram bot that can ping the members of a certain defined group, suggest team on misspelling and manage teams
+
+: **Open source repository**: [github.com/pool-party/pull-party-bot](https://github.com/pool-party/pull-party-bot)
+
+: **Bot**: [t.me/PullPartyBot](https://t.me/PullPartyBot)
+
+: **Keywords**: Kotlin, Gradle, PostgreSQL, Heroku, Test containers
 
 Skills
 ------
 
-Programming Languages
-: Confident knowledge of **Kotlin and Java**: web services, translation methods, parallel programming,
-  distributed systems
+<!-- A crutch to overcome hypen and new line difficulties in latex description. I hate tex. -->
+Programming \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ LanLanguages
+: **Proficient**: Rust, Kotlin, Java
 
-: Advanced knowledge of **Rust**
+: **Advanced**: C++, SQL
 
-: Advanced knowledge of **C++**: algorithms and data structures implementations, Qt framework
+: **Familiar with** Python, Haskell
 
-: **SQL**: portable code, requests, indices, triggers, stored procedures, plpgsql
+: **Basic knowledge** of TypeScript, JavaScript, OCaml
 
-: **Haskell**: parsers, eDSL, multithreading, mathematic logic and type theory
+Build tools
+: Cargo, Gradle, Maven, Make
 
-: **Python**: machine learning projects
-
-: Basic knowledge of **TypeScript**, **JavaScript** and **OCaml**
-
-Technologies
-: **GNU/Linux**, **git**, **nix**, **Gradle**, **Maven**, **GitHub**, **GitHub actions**, **PostgreSQL**,
-  **docker**, **docker compose**
+Other technologies
+: Git, nix, GitHub actions, PostgreSQL, docker, docker compose
 
 Languages
-: **Russian** (native), **English** (C1), **German** (B1)
-
-Pet Projects
-------------
-
-[Pull Party telegram bot](https://github.com/pool-party/pull-party-bot)
-: A telegram bot that can ping the members of a certain defined group, suggest team on misspelling and manage teams.
-
-: **Kotlin**, **Gradle**
-
-Finances application clients
-: A set of clients for a finances application including iOS, Android and Telegram bot clients. Since it is written in
-  Kotlin Multiplatform, there is a lot of code shared between the client modules that seems convenient in development.
-
-: **Kotlin Multiplatform**, **Gradle**
+: Russian (native), English (C1), German (B1)
 
 Contacts
 --------
 
-- **GitHub:** [\@nothingelsematters](https://github.com/nothingelsematters)
+LinkedIn
+: [\@nothingelsematters](https://www.linkedin.com/in/nothingelsematters/)
 
-- **Telegram:** [\@itsfuntofantasize](https://t.me/itsfuntofantasize)
+GitHub
+: [\@nothingelsematters](https://github.com/nothingelsematters)
 
-- **Gmail:** [daretoodefy@gmail.com](mailto:daretoodefy@gmail.com)
+Telegram
+: [\@itsfuntofantasize](https://t.me/itsfuntofantasize)
+
+Gmail
+: [daretoodefy@gmail.com](mailto:daretoodefy@gmail.com)

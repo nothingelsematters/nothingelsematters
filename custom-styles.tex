@@ -21,13 +21,13 @@ $endif$
                  header=0mm, footer=0mm]
 
 \setupbodyfont[8.7pt, helvetica]
-\hyphenchar\font=-1
-\hyphenpenalty=15000
-\exhyphenpenalty=15000
+% \hyphenchar\font=-1
+% \hyphenpenalty=10000
+\raggedright
 
 \setupwhitespace[medium]
 
-\setupblackrules[width=31mm, color=rulecolor]
+\setupblackrules[width=28mm, color=rulecolor]
 
 \setuphead[chapter]      [style=\tfd]
 \setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
@@ -42,11 +42,13 @@ $endif$
 
 \definedescription
   [description]
-  [headstyle=bold, style=normal,
-   location=hanging, width=18mm, distance=14mm, margin=0cm]
+  [headstyle=normal, style=normal, location=hanging, width=23mm, distance=6mm, margin=0cm]
 
 \setupitemize[autointro, packed] % prevent orphan list intro
 \setupitemize[indentnext=no]
+
+\defineitemgroup[enumerate]
+\setupenumerate[each][fit][itemalign=left,distance=.5em,style={\feature[+][default:tnum]}]
 
 \setupfloat[figure][default={here,nonumber}]
 \setupfloat[table][default={here,nonumber}]
@@ -54,7 +56,7 @@ $endif$
 \setuptables[textwidth=max, HL=none]
 \setupxtable[frame=off,option={stretch,width}]
 
-\setupthinrules[width=10em] % width of horizontal rules
+\setupthinrules[width=15em] % width of horizontal rules
 
 \setupdelimitedtext
   [blockquote]
