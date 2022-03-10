@@ -27,33 +27,35 @@ Experience
 ----------
 
 Nov 2021 -- present
-: **Tinkoff**, **Middle Rust Developer**
+: **Middle Rust Developer**, **Tinkoff**, Saint Petersburg
 
 : Developing and deploying the payment system and adjacent services performing miscellaneous checks for transactions
 
-: **Keywords**: Rust, Cargo, microservice architecture, Oracle DB, PostgreSQL
+: **Keywords**: Rust, Cargo, microservice architecture, Oracle DB, PostgreSQL, etcd
 
 Mar 2020 -- Oct 2021
-: **Huawei Technologies**, **Junior → Middle Java Developer**
+: **Junior → Middle Java Developer**, **Huawei Technologies**, Saint Petersburg
 
-: Automatisation of Big Data aggregation configuration
+: Worked in the international team with colleages the Shanghai office
 
-: Developing API and data aggregation service for a cloud application platform
+: Developed an MVP of automatisation of Big Data aggregation configuration
+
+: Developed an MVP of an API and data aggregation service for a cloud application platform
 
 : **Keywords**: Java, Maven, Gremlin query langugage, TrinoDB distributed SQL query engine, \
   microservice architecture, PostgreSQL, MySQL, graph databases
 
 Feb -- Mar 2020
-: **Epam Systems**, **Software Engineer Intern**
+: **Software Engineer Intern**, **Epam Systems**, Saint Petersburg
 
-: Developing a web service to perform different image transformations
+: Developed a simple web service to perform different image transformations
 
 : **Keywords**: Kotlin, Gradle
 
 Jul -- Aug 2018
-: **Reddle**, **Software Engineer Intern**
+: **Software Engineer Intern**, **Reddle**, Saint Petersburg
 
-: Developing and deploying a web site back-end for ventilation and heating scheme configuration
+: Developed and deployed a web site back-end for ventilation and heating scheme configuration
 
 : **Keywords**: Python, Django framework
 
