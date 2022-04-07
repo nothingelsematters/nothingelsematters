@@ -1,6 +1,10 @@
 Simon Naumov
 ============
 
+-------------------------------------------------------------------------- --------------------------------------------------------------------------------------- ------------------------------------------------------------------------
+Mail: [simon.naumov.work@gmail.com](mailto:simon.naumov.work@gmail.com)       LinkedIn: [\@nothingelsematters](https://www.linkedin.com/in/nothingelsematters/)       GitHub: [\@nothingelsematters](https://github.com/nothingelsematters)
+-------------------------------------------------------------------------- --------------------------------------------------------------------------------------- ------------------------------------------------------------------------
+
 Education
 ---------
 
@@ -31,12 +35,14 @@ Nov 2021 -- present
 
 : Developing and deploying the payment system and adjacent services performing miscellaneous checks for transactions
 
-: **Keywords**: Rust, Cargo, microservice architecture, Oracle DB, PostgreSQL, etcd
+: Site Reliability Engineering: deployment checking and failure fixing
+
+: **Keywords**: Rust, Cargo, microservice architecture, etcd, Oracle DB, PostgreSQL, Kafka
 
 Mar 2020 -- Oct 2021
 : **Junior → Middle Java Developer**, **Huawei Technologies**, Saint Petersburg
 
-: Worked in the international team with colleages the Shanghai office
+: Worked in the international team with colleages from the Shanghai office
 
 : Developed an MVP of automatisation of Big Data aggregation configuration
 
@@ -67,7 +73,7 @@ Jul 2020 -- Aug 2021
 
 : A telegram bot that can ping the members of a certain defined group, suggest team on misspelling and manage teams
 
-: **Open source repository**: [github.com/pool-party/pull-party-bot](https://github.com/pool-party/pull-party-bot)
+: **Repository**: [github.com/pool-party/pull-party-bot](https://github.com/pool-party/pull-party-bot)
 
 : **Bot**: [t.me/PullPartyBot](https://t.me/PullPartyBot)
 
@@ -90,22 +96,7 @@ Build tools
 : Cargo, Gradle, Maven, Make
 
 Other technologies
-: Git, nix, GitHub actions, PostgreSQL, docker, docker compose
+: Git, Nix, GitHub Actions, PostgreSQL, Docker, Docker Compose
 
 Languages
-: Russian (native), English (C1), German (B1)
-
-Contacts
---------
-
-LinkedIn
-: [\@nothingelsematters](https://www.linkedin.com/in/nothingelsematters/)
-
-GitHub
-: [\@nothingelsematters](https://github.com/nothingelsematters)
-
-Telegram
-: [\@itsfuntofantasize](https://t.me/itsfuntofantasize)
-
-Gmail
-: [daretoodefy@gmail.com](mailto:daretoodefy@gmail.com)
+: English (C1), German (B1), Russian (native)
