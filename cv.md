@@ -30,8 +30,8 @@ FOGA 2021
 Experience
 ----------
 
-Nov 2021 -- present
-: **Middle Rust Developer**, **Tinkoff**, Saint Petersburg
+Nov 2021 -- present (10 mos)
+: **Middle → Senior Rust Developer**, **Tinkoff**, Saint Petersburg
 
 : Developing and deploying the payment system and adjacent services performing miscellaneous checks for transactions
 
@@ -39,7 +39,7 @@ Nov 2021 -- present
 
 : **Keywords**: Rust, Cargo, microservice architecture, etcd, Oracle DB, PostgreSQL, Kafka
 
-Mar 2020 -- Oct 2021
+Mar 2020 -- Oct 2021 (1 yr 8 mos)
 : **Junior → Middle Java Developer**, **Huawei Technologies**, Saint Petersburg
 
 : Worked in the international team with colleages from the Shanghai office
@@ -51,14 +51,14 @@ Mar 2020 -- Oct 2021
 : **Keywords**: Java, Maven, Gremlin query langugage, TrinoDB distributed SQL query engine, \
   microservice architecture, PostgreSQL, MySQL, graph databases
 
-Feb -- Mar 2020
+Feb -- Mar 2020 (2 mos)
 : **Software Engineer Intern**, **Epam Systems**, Saint Petersburg
 
 : Developed a simple web service to perform different image transformations
 
 : **Keywords**: Kotlin, Gradle
 
-Jul -- Aug 2018
+Jul -- Aug 2018 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (2 (2 mos)
 : **Software Engineer Intern**, **Reddle**, Saint Petersburg
 
 : Developed and deployed a web site back-end for ventilation and heating scheme configuration
