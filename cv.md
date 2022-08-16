@@ -1,31 +1,18 @@
 Simon Naumov
 ============
 
--------------------------------------------------------------------------- --------------------------------------------------------------------------------------- ------------------------------------------------------------------------
-Mail: [simon.naumov.work@gmail.com](mailto:simon.naumov.work@gmail.com)       LinkedIn: [\@nothingelsematters](https://www.linkedin.com/in/nothingelsematters/)       GitHub: [\@nothingelsematters](https://github.com/nothingelsematters)
--------------------------------------------------------------------------- --------------------------------------------------------------------------------------- ------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+\ ![map] Saint Petersburg, Russia
+\ ![gm] [simon.naumov.work@gmail.com]
+\ ![li] [\@nothingelsematters](https://www.linkedin.com/in/nothingelsematters/)
+\ ![gh] [\@nothingelsematters](https://github.com/nothingelsematters)
+---------------------------------------------------------------------------------
 
-Education
----------
-
-2021 -- (2023)
-: **MSc, Computer Science**: ITMO University, Programming and Artificial Intelligence (Saint Petersburg)
-
-2017 -- 2021
-: **BSc, Computer Science**: ITMO University, Computer Technologies Department (Saint Petersburg)
-
-: Thesis: *Runtime Analysis of Evolutionary Algorithms on Asymmetric Jump Functions*
-
-: Repository with studying projects:
-  [github.com/nothingelsematters/university](https://github.com/nothingelsematters/university)
-
-Conferences
------------
-
-FOGA 2021
-: **The Effect of Non-symmetric Fitness**: The Analysis of Crossover-Based Algorithms on RealJump Functions (*Denis Antipov, Simon Naumov*)
-
-: Conference page: [fhv.at/foga2021](https://www.fhv.at/foga2021/)
+[map]: ./map.png
+[gm]: ./gmail.png
+[li]: ./linkedin.png
+[gh]: ./github.png
+[simon.naumov.work@gmail.com]: mailto:simon.naumov.work@gmail.com
 
 Experience
 ----------
@@ -65,6 +52,28 @@ Jul -- Aug 2018 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
 
 : **Keywords**: Python, Django framework
 
+Education
+---------
+
+2021 -- (2023)
+: **MSc, Computer Science**: ITMO University, Programming and Artificial Intelligence (Saint Petersburg)
+
+2017 -- 2021
+: **BSc, Computer Science**: ITMO University, Computer Technologies Department (Saint Petersburg)
+
+: Thesis: *Runtime Analysis of Evolutionary Algorithms on Asymmetric Jump Functions*
+
+: Repository with studying projects:
+  [github.com/nothingelsematters/university](https://github.com/nothingelsematters/university)
+
+Conferences
+-----------
+
+FOGA 2021
+: **The Effect of Non-symmetric Fitness**: The Analysis of Crossover-Based Algorithms on RealJump Functions (*Denis Antipov, Simon Naumov*)
+
+: Conference page: [fhv.at/foga2021](https://www.fhv.at/foga2021/)
+
 Side Projects
 ------------
 
@@ -88,9 +97,7 @@ Programming \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
 
 : **Advanced**: C++, SQL
 
-: **Familiar with** Python, Haskell
-
-: **Basic knowledge** of TypeScript, JavaScript, OCaml
+: **Basic knowledge** of Python, Haskell
 
 Build tools
 : Cargo, Gradle, Maven, Make
@@ -99,4 +106,4 @@ Other technologies
 : Git, Nix, GitHub Actions, PostgreSQL, Docker, Docker Compose
 
 Languages
-: English (C1), German (B1), Russian (native)
+: Russian (native), English (C1), German (B1, stale), Swedish (A2)
