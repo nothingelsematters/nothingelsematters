@@ -17,7 +17,7 @@ Simon Naumov
 Experience
 ----------
 
-Nov 2021 -- present (10 mos)
+Nov 2021 -- present (11 mos)
 : **Middle → Senior Rust Developer**, **Tinkoff**, Saint Petersburg
 
 : Developing and deploying the payment system and adjacent services performing miscellaneous checks for transactions
