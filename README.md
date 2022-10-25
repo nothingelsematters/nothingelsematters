@@ -4,7 +4,7 @@
 
 - 2021 - (2023): **MSc, Computer Science**: ITMO University, Programming and Artificial Intelligence
 
-- 2017 - 2021: **BSc, Computer Science**: ITMO University, Computer Technologies Department
+- 2017 - 2021: **BSc, Computer Science**: ITMO University, Applied Mathematics and Informatics
 
 ## Experience
 
@@ -20,10 +20,8 @@
 
 ### Programming languages
 
-- Experienced knowledge of **Rust**, **Kotlin** and **Java**
+- Proficient: **Rust**, **Kotlin** and **Java**
 
-- Advanced knowledge of **C++**, **SQL**, **Haskell**
-
-- Basic knowledge of **Python**, **TypeScript**, **JavaScript** and **OCaml**
+- Advanced: **C++**, **SQL**, **Haskell**
 
 [Learn more...](https://github.com/nothingelsematters/nothingelsematters/blob/master/cv.pdf)
