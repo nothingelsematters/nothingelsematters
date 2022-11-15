@@ -14,11 +14,7 @@
 
 - February - March 2020: **Software Engineer Intern** @ **Epam Systems**
 
-- July - August 2018: **Software Engineer Intern** @ **Reddle**
-
 ## Skills
-
-### Programming languages
 
 - Proficient: **Rust**, **Kotlin** and **Java**
 
