@@ -23,9 +23,9 @@ Nov 2021 -- present (1 yr)
 
 : Developed Stand-In Processing system making the whole transaction processing more fault tolerant
 
-: Site Reliability Engineering: deployment checking and failure fixing
+: Site Reliability Engineering: deployment checking and instant failure fixing
 
-: **Technologies**: Rust, Cargo, PostgreSQL, Oracle DB, etcd, Kafka
+: **Technologies**: Rust, Cargo, PostgreSQL, Oracle DB, Kafka, etcd
 
 Mar 2020 -- Oct 2021 (1 yr 8 mos)
 : **Junior → Middle Java Developer**, **Huawei Technologies**
@@ -42,17 +42,9 @@ Mar 2020 -- Oct 2021 (1 yr 8 mos)
 Feb -- Mar 2020 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (2  (2 mos)
 : **Software Engineer Intern**, **Epam Systems**
 
-: Developed a simple web service to perform different image transformations
+: Developed a simple web service to perform miscellaneous image transformations
 
 : **Technologies**: Kotlin, Gradle
-
-<!-- A crutch to overcome hypen and new line difficulties in latex description. I hate tex. -->
-Jul -- Aug 2018 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (2 (2 mos)
-: **Software Engineer Intern**, **Reddle**
-
-: Developed and deployed a web site back-end for ventilation and heating scheme configuration
-
-: **Technologies**: Python, Django framework
 
 Education
 ---------
@@ -94,7 +86,8 @@ Skills
 
 Programming
 : **Proficient**: Rust, Kotlin, Java \
-**Advanced**: C++, SQL
+**Advanced**: C++, SQL \
+**Would like to learn**: Go
 
 Languages
 : Russian -- native \
