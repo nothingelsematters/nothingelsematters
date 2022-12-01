@@ -30,13 +30,13 @@ Nov 2021 -- present (1 yr 1 mo)
 Mar 2020 -- Oct 2021 (1 yr 8 mos)
 : **Junior → Middle Java Developer**, **Huawei Technologies**
 
-: Worked in the international team with colleages from the Shanghai office
+: Worked in the international team with colleagues from the Shanghai office
 
 : Developed an MVP of automatisation of Big Data aggregation configuration
 
 : Developed an MVP of an API and data aggregation service for a cloud application platform
 
-: **Technologies**: Java, Maven, Gremlin query langugage, TrinoDB distributed SQL query engine, \
+: **Technologies**: Java, Maven, Gremlin query language, TrinoDB distributed SQL query engine, \
   PostgreSQL, MySQL, graph databases
 
 Feb -- Mar 2020 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (2  (2 mos)
