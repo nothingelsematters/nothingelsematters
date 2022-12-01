@@ -16,7 +16,7 @@ Simon Naumov
 Experience
 ----------
 
-Nov 2021 -- present (1 yr 1 mo)
+Nov 2021 -- present (1 yr 2 mo)
 : **Middle → Senior Rust Developer**, **Tinkoff Developing Center**
 
 : Developing and deploying the payment system and adjacent services performing miscellaneous checks for transactions
