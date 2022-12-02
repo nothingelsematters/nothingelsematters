@@ -17,7 +17,7 @@ Experience
 ----------
 
 Nov 2021 -- present (1 yr 2 mo)
-: **Middle → Senior Rust Developer**, **Tinkoff Developing Center**
+: **Middle+ Rust Developer**, **Tinkoff Developing Center**
 
 : Developing and deploying the payment system and adjacent services performing miscellaneous checks for transactions
 
@@ -39,7 +39,7 @@ Mar 2020 -- Oct 2021 (1 yr 8 mos)
 : **Technologies**: Java, Maven, Gremlin query language, TrinoDB distributed SQL query engine, \
   PostgreSQL, MySQL, graph databases
 
-Feb -- Mar 2020 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (2  (2 mos)
+Feb 2020 -- Mar 2020 (2 mos)
 : **Software Engineer Intern**, **Epam Systems**
 
 : Developed a simple web service to perform miscellaneous image transformations
@@ -73,23 +73,21 @@ Side Projects
 Jul 2020 -- Aug 2021
 : **Telegram Mentions Bot**
 
-: A telegram bot that can ping the members of a certain defined group, suggest team on misspelling and
-\ \ \ \ \ \ manage teams
+: A telegram bot to notify groups of users, suggest team on misspelling and manage teams
 
 : Repository: ![gh] [pool-party/pull-party-bot](https://github.com/pool-party/pull-party-bot) \
 Bot: ![tg] [\@PullPartyBot](https://t.me/PullPartyBot)
 
-: **Technologies**: Kotlin, Gradle, PostgreSQL, Heroku, Test containers
+: **Technologies**: Kotlin, Gradle, PostgreSQL, GitHub Actions, Test Containers
 
 Skills
 ------
 
 Programming
 : **Proficient**: Rust, Kotlin, Java \
-**Advanced**: C++, SQL \
-**Would like to learn**: Go
+  **Advanced**: Go, C++, SQL
 
 Languages
 : Russian -- native \
-English -- proficient \
-German, Swedish -- intermediate
+  English -- fluent \
+  German, Swedish -- elementary
