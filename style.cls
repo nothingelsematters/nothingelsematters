@@ -19,7 +19,6 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
-
 %% 3rd party packages
 % Needed to make fixed length table
 \RequirePackage{array}
@@ -47,9 +46,7 @@
 \defaultfontfeatures{Ligatures=TeX}
 % Needed to manage math fonts
 \RequirePackage{unicode-math}
-% Needed to use icons from font-awesome
-% (https://github.com/posquit0/latex-fontawesome)
-\RequirePackage{fontawesome}
+\usepackage{fontawesome5}
 \RequirePackage[default,opentype]{sourcesanspro}
 % Needed to deal a paragraphs
 \RequirePackage{parskip}
@@ -189,7 +186,8 @@
 \newcommand*{\twitter}[1]{\def\@twitter{#1}}
 \newcommand*{\extrainfo}[1]{\def\@extrainfo{#1}}
 
-\newcommand*{\githubLink}[1]{\faGithubSquare\acvHeaderIconSep \href{https://github.com/#1}{#1}}
+\newcommand*{\githubLink}[1]{\faIcon{github}\acvHeaderIconSep \href{https://github.com/#1}{#1}}
+\newcommand*{\telegramLink}[1]{\faIcon{telegram}\acvHeaderIconSep \href{https://t.me/#1}{@#1}}
 
 %% Commands for extra
 
@@ -240,7 +238,7 @@
         \ifthenelse{\isundefined{\@email}}{}
             {
                 \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}
-                \faEnvelope\acvHeaderIconSep\href{mailto:\@email}{\@email}
+                \faIcon{envelope}\acvHeaderIconSep\href{mailto:\@email}{\@email}
             }
         \ifthenelse{\isundefined{\@github}}{}
             {
@@ -250,7 +248,7 @@
         \ifthenelse{\isundefined{\@linkedin}}{}
             {
                 \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}
-                \faLinkedinSquare\acvHeaderIconSep \href{https://www.linkedin.com/in/\@linkedin}{\@linkedin}
+                \faIcon{linkedin}\acvHeaderIconSep \href{https://www.linkedin.com/in/\@linkedin}{\@linkedin}
             }
         \ifthenelse{\isundefined{\@twitter}}{}
             {
