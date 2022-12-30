@@ -1,27 +1,50 @@
 \documentclass[11pt, a4paper]{style}
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 \fontdir[fonts/]
+
 % Color for highlights
-% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+\definecolor{awesome-emerald}{HTML}{00A388}
+% \definecolor{awesome-skyblue}{HTML}{0395DE}
+% \definecolor{awesome-red}{HTML}{DC3522}
+% \definecolor{awesome-pink}{HTML}{EF4089}
+% \definecolor{awesome-orange}{HTML}{FF6138}
+% \definecolor{awesome-nephritis}{HTML}{27AE60}
+% \definecolor{awesome-concrete}{HTML}{95A5A6}
+% \definecolor{awesome-darknight}{HTML}{131A28}
 \colorlet{awesome}{awesome-emerald}
-
-% Set false if you don't want to highlight section with awesome color
-\setbool{acvSectionColorHighlight}{true}
-\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
-
-\name{Simon}{Naumov}
-% \position{}
-\address{Almaty, Kazakhstan}
-% \mobile{}
-\email{simon.naumov.work@gmail.com}
-\github{nothingelsematters}
-\linkedin{nothingelsematters}
-% \extrainfo{extra informations}
 
 \begin{document}
 
-% Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader
+% Header
+{
+    \newlength{\headertextwidth}
+    \setlength{\headertextwidth}{\textwidth}
+    \begin{minipage}[c]{\headertextwidth}
+        \centering % \raggedleft \raggedright
+        \headerfirstnamestyle{Simon}
+        \headerlastnamestyle{{}\space Naumov}
+        \\[\acvHeaderAfterNameSkip]
+        % \headerpositionstyle{position\\[\acvHeaderAfterPositionSkip]}
+        \headeraddressstyle{Almaty, Kazakhstan\\[\acvHeaderAfterAddressSkip]}
+        \headersocialstyle{
+            % \faIcon{mobile}\acvHeaderIconSep mobile
+            % \acvHeaderSocialSep
+            \faIcon{envelope}\acvHeaderIconSep
+                \href{mailto:simon.naumov.work@gmail.com}{simon.naumov.work@gmail.com}
+            \acvHeaderSocialSep
+            \githubLink{nothingelsematters}
+            \acvHeaderSocialSep
+            \faIcon{linkedin}\acvHeaderIconSep
+                \href{https://www.linkedin.com/in/}{nothingelsematters}
+            % \acvHeaderSocialSep
+            % \faIcon{twitter}\acvHeaderIconSep
+            %     \href{https://twitter.com/twitter}{twitter}
+            % \acvHeaderSocialSep
+            % extrainfo
+        }
+        \\[\acvHeaderAfterSocialSkip]
+    \end{minipage}
+}
 
 \cvsection{Experience}
 \begin{cventries}
@@ -49,6 +72,8 @@
         } \\
         & \descriptionstyle{\underline{Technologies}: Java, Maven, Gremlin query language, TrinoDB distributed SQL query engine, PostgreSQL, MySQL}
     \end{cventry}
+
+    \vspace{-5pt}
 
     \begin{cventry}
         & \entrypositionstyle{Junior Java Developer} \\
@@ -108,7 +133,7 @@
 \cvsection{Side Projects}
 \begin{cventries}
     \begin{cventry}
-        \entrydatestyle{Jul 2020 – Aug 2021}
+        \entrydatestyle{Jul 2020 -- Aug 2021}
         & \entrytitlestyle{Telegram Mentions Bot} \\
         & \descriptionstyle{A telegram bot to notify groups of users, suggest team on misspelling and manage teams} \\
         & \descriptionstyle{Repository: \githubLink{pool-party/pull-party-bot}} \\
