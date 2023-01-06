@@ -124,42 +124,42 @@
 }
 
 % Entry styles
-\newcommand*{\entrytitlestyle}[1]{
+\newcommand*{\titleStyle}[1]{
     {\fontsize{11pt}{1em}\bodyfont\bfseries\color{darktext} #1}
 }
-\newcommand*{\entrypositionstyle}[1]{
+\newcommand*{\positionStyle}[1]{
     {\fontsize{9pt}{1em}\bodyfont\scshape\color{graytext} #1}
 }
-\newcommand*{\entrydatestyle}[1]{
+\newcommand*{\dateStyle}[1]{
     {\fontsize{8pt}{1em}\bodyfontlight\color{graytext} #1}
 }
-\newcommand*{\descriptionstyle}[1]{
+\newcommand*{\descriptionStyle}[1]{
     {\fontsize{10pt}{1em}\bodyfontlight\upshape\color{text} #1}
 }
 
 % Skill styles
-\newcommand*{\skilltypestyle}[1]{
+\newcommand*{\skillTypeStyle}[1]{
     {\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}
 }
-\newcommand*{\skillsetstyle}[1]{
+\newcommand*{\skillSetStyle}[1]{
     {\fontsize{10pt}{1em}\bodyfontlight\color{text} #1}
 }
 
 %% Link commands
-\newcommand*{\githubLink}[1]{\faIcon{github}\acvHeaderIconSep \href{https://github.com/#1}{#1}}
-\newcommand*{\telegramLink}[1]{\faIcon{telegram}\acvHeaderIconSep \href{https://t.me/#1}{#1}}
+\newcommand*{\githubLink}[1]{\faIcon{github}\headerIconSep \href{https://github.com/#1}{#1}}
+\newcommand*{\telegramLink}[1]{\faIcon{telegram}\headerIconSep \href{https://t.me/#1}{#1}}
 
 %% Size constants
 % Header
-\newcommand{\acvHeaderAfterNameSkip}{.4mm}
-\newcommand{\acvHeaderAfterPositionSkip}{.4mm}
-\newcommand{\acvHeaderAfterAddressSkip}{-.5mm}
-\newcommand{\acvHeaderIconSep}{\space}
-\newcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
-\newcommand{\acvHeaderAfterSocialSkip}{6mm}
+\newcommand{\headerAfterNameSkip}{.4mm}
+\newcommand{\headerAfterPositionSkip}{.4mm}
+\newcommand{\headerAfterAddressSkip}{-.5mm}
+\newcommand{\headerIconSep}{\space}
+\newcommand{\headerSocialSep}{\quad\textbar\quad}
+\newcommand{\headerAfterSocialSkip}{6mm}
 % Others
-\newcommand{\acvSectionTopSkip}{1mm}
-\newcommand{\acvSectionContentTopSkip}{0.5mm}
+\newcommand{\sectionTopSkip}{1mm}
+\newcommand{\sectionContentTopSkip}{0.5mm}
 
 %% Utilities
 % Use to align an element of tabular table
@@ -173,22 +173,22 @@
 %% Structures
 % CV section \cvsection{<section-title>}
 \newcommand{\cvsection}[1]{
-    \vspace{\acvSectionTopSkip}
+    \vspace{\sectionTopSkip}
     \sectionstyle{#1}
     \phantomsection
     \color{gray}\vhrulefill{0.9pt}
-    \vspace{\acvSectionTopSkip}
+    \vspace{\sectionTopSkip}
 }
 
 % CV section \cvsubsection{<subsection-title>}
 \newcommand{\cvsubsection}[1]{
-    \vspace{\acvSectionContentTopSkip}
+    \vspace{\sectionContentTopSkip}
     \vspace{-3mm}
     \subsectionstyle{#1}
     \phantomsection
 }
 
-\newenvironment{cventries}{\vspace{\acvSectionContentTopSkip}}{}
+\newenvironment{cventries}{\vspace{\sectionContentTopSkip}}{}
 
 \newenvironment{cventry}{
     \vspace{-0.5mm}
@@ -198,7 +198,7 @@
 }
 
 \newenvironment{cvskills}{
-    \vspace{\acvSectionContentTopSkip}
+    \vspace{\sectionContentTopSkip}
     \vspace{-2.0mm}
     \begin{center}
         \setlength\tabcolsep{1ex}
