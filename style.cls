@@ -173,7 +173,7 @@
 %% Structures
 % CV section \cvsection{<section-title>}
 \newcommand{\cvsection}[1]{
-    \vspace{\sectionTopSkip}
+    % \vspace{\sectionTopSkip}
     \sectionstyle{#1}
     \phantomsection
     \color{gray}\vhrulefill{0.9pt}
