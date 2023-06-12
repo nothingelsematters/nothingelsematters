@@ -14,9 +14,9 @@
 \colorlet{awesome}{awesome-emerald}
 
 \newcommand*{\technologies}[1]{\descriptionStyle{\underline{Technologies}: #1}}
-\newcommand*{\cvEntryHeader}[4]{
+\newcommand*{\cvEntryHeader}[5]{
         \dateStyle{#1} & \titleStyle{#3} \\
-        \dateStyle{#2} & \positionStyle{#4}
+        \dateStyle{#2} & \positionStyle{#5 \ \textbar \, #4 }
 }
 \begin{document}
 
@@ -35,12 +35,12 @@
             % \faIcon{mobile}\headerIconSep mobile
             % \headerSocialSep
             \faIcon{envelope}\headerIconSep
-                \href{mailto:simon.naumov.work@gmail.com}{simon.naumov.work@gmail.com}
+                \link{mailto:simon.naumov.work@gmail.com}{simon.naumov.work@gmail.com}
             \headerSocialSep
             \githubLink{nothingelsematters}
             \headerSocialSep
             \faIcon{linkedin}\headerIconSep
-                \href{https://www.linkedin.com/in/}{nothingelsematters}
+                \link{https://www.linkedin.com/in/}{nothingelsematters}
             % \headerSocialSep
             % \faIcon{twitter}\headerIconSep
             %     \href{https://twitter.com/twitter}{twitter}
@@ -51,13 +51,13 @@
     \end{minipage}
 }
 
-% TODO: location
 \cvsection{Experience}
 \begin{cventries}
     \begin{cventry}
         \cvEntryHeader
             {Nov 2021 -- present}{(1 yr 8 mos)}
-            {Tinkoff Bank}{Middle+ Rust Developer} \\
+            {Tinkoff Bank}{Saint Petersburg, Russia \ → \ Almaty, Kazakhstan}
+            {Middle+ Rust Developer} \\
         & \descriptionStyle{Transaction Processing} \\
         & \descriptionStyle{
             \begin{cvitems}
@@ -73,7 +73,8 @@
     \begin{cventry}
         \cvEntryHeader
             {Mar 2020 -- Oct 2021}{(1yr 8 mos)}
-            {Huawei Technologies}{Middle Java Developer} \\
+            {Huawei Technologies}{Saint Petersburg, Russia}
+            {Middle Java Developer} \\
         & \descriptionStyle{Cloud Application Platform} \\
         & \descriptionStyle{
             \begin{cvitems}
@@ -101,7 +102,8 @@
     \begin{cventry}
         \cvEntryHeader
             {Feb 2020 -- Mar 2020}{(2 mos)}
-            {Epam Systems}{Software Engineer Intern} \\
+            {Epam Systems}{Saint Petersburg, Russia}
+            {Software Engineer Intern} \\
          & \descriptionStyle{
             \begin{cvitems}
                 \item Developed and launched a web service performing miscellaneous image transformations
@@ -111,7 +113,6 @@
     \end{cventry}
 \end{cventries}
 
-% TODO: location
 \cvsection{Education}
 \begin{cventries}
     \begin{cventry}
@@ -121,15 +122,17 @@
         }
         \vspace{6pt} \\
 
-        \cvEntryHeader
-            {Sep 2021 - Jun 2023}{}
-            {ITMO University}{MSc in Computer Science: Programming and Artificial Intelligence}
+        \dateStyle{Sep 2021 - Jun 2023}
+        & \titleStyle{ITMO University}
+        \positionStyle{\textbar \, Saint Petersburg, Russia} \\
+        & \positionStyle{MSc in Computer Science: Programming and Artificial Intelligence}
     \end{cventry}
 
     \begin{cventry}
-        \cvEntryHeader
-            {Sep 2017 - Jun 2021}{}
-            {ITMO University}{BSc in Computer Science: Applied Mathematics and Informatics}
+        \dateStyle{Sep 2017 - Jun 2021}
+        & \titleStyle{ITMO University}
+        \positionStyle{\textbar \, Saint Petersburg, Russia} \\
+        & \positionStyle{BSc in Computer Science: Applied Mathematics and Informatics}
     \end{cventry}
 \end{cventries}
 
@@ -143,14 +146,14 @@
     % \vspace{-15pt}
 
     \begin{cventry}
-        \dateStyle{\href{https://gecco-2023.sigevo.org}{GECCO 2023}}
+        \dateStyle{\link{https://gecco-2023.sigevo.org}{GECCO 2023}}
         & \positionStyle{Empirical Analysis of Crossover-Based Evolutionary Algorithms on Rugged Landscape}
     \end{cventry}
 
     \vspace{-15pt}
 
     \begin{cventry}
-        \dateStyle{\href{https://www.fhv.at/foga2021/}{FOGA 2021}}
+        \dateStyle{\link{https://www.fhv.at/foga2021/}{FOGA 2021}}
         & \positionStyle{The Effect of Non-symmetric Fitness: The Analysis of Crossover-Based Algorithms on RealJump Functions}
     \end{cventry}
 \end{cventries}

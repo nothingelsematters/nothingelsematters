@@ -125,8 +125,7 @@
 
 % Entry styles
 \newcommand*{\titleStyle}[1]{
-    {\fontsize{11pt}{1em}\bodyfont\bfseries\color{darktext} #1}
-}
+    {\fontsize{11pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\positionStyle}[1]{
     {\fontsize{9pt}{1em}\bodyfont\scshape\color{graytext} #1}
 }
