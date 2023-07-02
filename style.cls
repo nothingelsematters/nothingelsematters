@@ -105,7 +105,7 @@
     {\fontsize{7.6pt}{1em}\bodyfont\scshape\color{awesome} #1}
 }
 \newcommand*{\headeraddressstyle}[1]{
-    {\fontsize{8pt}{1em}\headerfont\itshape\color{lighttext} #1}
+    {\fontsize{8pt}{1em}\headerfont\color{lighttext} #1}
 }
 \newcommand*{\headersocialstyle}[1]{
     {\fontsize{8pt}{1em}\headerfont\color{text} #1}
@@ -144,10 +144,6 @@
     {\fontsize{10pt}{1em}\bodyfontlight\color{text} #1}
 }
 
-%% Link commands
-\newcommand*{\githubLink}[1]{\faIcon{github}\headerIconSep \href{https://github.com/#1}{#1}}
-\newcommand*{\telegramLink}[1]{\faIcon{telegram}\headerIconSep \href{https://t.me/#1}{#1}}
-
 %% Size constants
 % Header
 \newcommand{\headerAfterNameSkip}{.4mm}
@@ -179,19 +175,11 @@
     \vspace{\sectionTopSkip}
 }
 
-% CV section \cvsubsection{<subsection-title>}
-\newcommand{\cvsubsection}[1]{
-    \vspace{\sectionContentTopSkip}
-    \vspace{-3mm}
-    \subsectionstyle{#1}
-    \phantomsection
-}
-
 \newenvironment{cventries}{\vspace{\sectionContentTopSkip}}{}
 
 \newenvironment{cventry}{
     \vspace{-0.5mm}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{2.5cm} L{\textwidth - 2.7cm}}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{2.7cm} L{\textwidth - 2.9cm}}
 }{
     \end{tabular*}
 }
@@ -202,7 +190,7 @@
     \begin{center}
         \setlength\tabcolsep{1ex}
         \setlength{\extrarowheight}{0pt}
-        \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} R{2.5cm} L{\textwidth - 2.5cm}}
+        \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} R{2.7cm} L{\textwidth - 2.9cm}}
 }{
         \end{tabular*}
     \end{center}

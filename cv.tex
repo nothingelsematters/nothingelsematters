@@ -13,11 +13,17 @@
 % \definecolor{awesome-darknight}{HTML}{131A28}
 \colorlet{awesome}{awesome-emerald}
 
+\newcommand*{\githubLink}[1]{\faIcon{github}\headerIconSep \href{https://github.com/#1}{#1}}
+\newcommand*{\telegramLink}[1]{\faIcon{telegram}\headerIconSep \href{https://t.me/#1}{#1}}
+
 \newcommand*{\technologies}[1]{\descriptionStyle{\underline{Technologies}: #1}}
-\newcommand*{\cvEntryHeader}[5]{
-        \dateStyle{#1} & \titleStyle{#3} \\
-        \dateStyle{#2} & \positionStyle{#5 \ \textbar \, #4 }
+
+\newcommand*{\positionEntry}[5]{
+        \dateStyle{#3} & \titleStyle{#1} \\
+        \dateStyle{#4} & \positionStyle{#2} \\
+        \dateStyle{#5} &
 }
+
 \begin{document}
 
 % Header
@@ -30,7 +36,7 @@
         \headerlastnamestyle{{}\space Naumov}
         \\[\headerAfterNameSkip]
         % \headerpositionstyle{position\\[\headerAfterPositionSkip]}
-        \headeraddressstyle{\faIcon{map-marker} Almaty, Kazakhstan \\[\headerAfterAddressSkip]}
+        \headeraddressstyle{\faIcon{map-pin} Almaty, Kazakhstan \\[\headerAfterAddressSkip]}
         \headersocialstyle{
             % \faIcon{mobile}\headerIconSep mobile
             % \headerSocialSep
@@ -54,11 +60,12 @@
 \cvsection{Experience}
 \begin{cventries}
     \begin{cventry}
-        \cvEntryHeader
+        \positionEntry
+            {Tinkoff Bank}
+            {Middle+ Rust Developer}
             {Nov 2021 -- present}{(1 yr 9 mos)}
-            {Tinkoff Bank}{Almaty, Kazakhstan}
-            {Middle+ Rust Developer} \\
-        & \descriptionStyle{Transaction Processing} \\
+            {Almaty, Kazakhstan}
+        \descriptionStyle{Transaction Processing} \\
         & \descriptionStyle{
             \begin{cvitems}
                 \item Developed and deployed services performing miscellaneous transactions checks
@@ -71,11 +78,12 @@
     \end{cventry}
 
     \begin{cventry}
-        \cvEntryHeader
+        \positionEntry
+            {Huawei Technologies}
+            {Middle Java Developer}
             {Mar 2020 -- Oct 2021}{(1yr 8 mos)}
-            {Huawei Technologies}{Saint Petersburg, Russia}
-            {Middle Java Developer} \\
-        & \descriptionStyle{Cloud Application Platform} \\
+            {Saint Petersburg, Russia}
+        \descriptionStyle{Cloud Application Platform} \\
         & \descriptionStyle{
             \begin{cvitems}
                 \item Developed an API and data aggregation service
@@ -100,11 +108,12 @@
     \end{cventry}
 
     \begin{cventry}
-        \cvEntryHeader
+        \positionEntry
+            {Epam Systems}
+            {Software Engineer Intern}
             {Feb 2020 -- Mar 2020}{(2 mos)}
-            {Epam Systems}{Saint Petersburg, Russia}
-            {Software Engineer Intern} \\
-         & \descriptionStyle{
+            {Saint Petersburg, Russia}
+         \descriptionStyle{
             \begin{cvitems}
                 \item Developed and launched a web service performing miscellaneous image transformations
             \end{cvitems}
@@ -116,23 +125,17 @@
 \cvsection{Education}
 \begin{cventries}
     \begin{cventry}
+
+        \dateStyle{Saint Petersburg, Russia}
+        & \titleStyle{ITMO University} \\
+        \dateStyle{Sep 2021 - Jun 2023}
+        & \positionStyle{Master's in Computer Science: Programming and Artificial Intelligence} \\
+        \dateStyle{Sep 2017 - Jun 2021}
+        & \positionStyle{Bachelor's in Computer Science: Applied Mathematics and Informatics} \\
         & \descriptionStyle{
             University projects:
             \githubLink{nothingelsematters/university}
         }
-        \vspace{6pt} \\
-
-        \dateStyle{Sep 2021 - Jun 2023}
-        & \titleStyle{ITMO University}
-        \positionStyle{\textbar \, Saint Petersburg, Russia} \\
-        & \positionStyle{MSc in Computer Science: Programming and Artificial Intelligence}
-    \end{cventry}
-
-    \begin{cventry}
-        \dateStyle{Sep 2017 - Jun 2021}
-        & \titleStyle{ITMO University}
-        \positionStyle{\textbar \, Saint Petersburg, Russia} \\
-        & \positionStyle{BSc in Computer Science: Applied Mathematics and Informatics}
     \end{cventry}
 \end{cventries}
 
@@ -149,6 +152,8 @@
         \dateStyle{\href{https://www.fhv.at/foga2021/}{FOGA 2021}}
         & \positionStyle{The Effect of Non-symmetric Fitness: The Analysis of Crossover-Based Algorithms on RealJump Functions}
     \end{cventry}
+
+    \vspace{-5pt}
 \end{cventries}
 
 \cvsection{Side Projects}
@@ -169,12 +174,12 @@
 \cvsection{Skills}
 \begin{cvskills}
     \skillTypeStyle{Programming}
-    & \skillSetStyle{\textbf{Proficient}: Rust, Kotlin, Java} \\
-    & \skillSetStyle{\textbf{Advanced}: Go, C++, SQL}
+        & \skillSetStyle{\textbf{Proficient}: Rust, Kotlin, Java} \\
+        & \skillSetStyle{\textbf{Advanced}: Go, C++, SQL}
     \vspace{4pt} \\
     \skillTypeStyle{Languages}
-    & \skillSetStyle{English -- fluent} \\
-    & \skillSetStyle{Swedish, German -- elementary}
+        & \skillSetStyle{English -- fluent} \\
+        & \skillSetStyle{Swedish, German -- elementary}
 \end{cvskills}
 
 \end{document}
