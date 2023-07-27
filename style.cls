@@ -105,7 +105,7 @@
     {\fontsize{7.6pt}{1em}\bodyfont\scshape\color{awesome} #1}
 }
 \newcommand*{\headeraddressstyle}[1]{
-    {\fontsize{8pt}{1em}\headerfont\color{lighttext} #1}
+    {\fontsize{8pt}{1em}\headerfont\color{graytext} #1}
 }
 \newcommand*{\headersocialstyle}[1]{
     {\fontsize{8pt}{1em}\headerfont\color{text} #1}
@@ -127,13 +127,16 @@
 \newcommand*{\titleStyle}[1]{
     {\fontsize{11pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\positionStyle}[1]{
-    {\fontsize{9pt}{1em}\bodyfont\scshape\color{graytext} #1}
+    {\fontsize{10pt}{1em}\bodyfont\scshape\color{graytext} #1}
 }
 \newcommand*{\dateStyle}[1]{
     {\fontsize{8pt}{1em}\bodyfontlight\color{graytext} #1}
 }
 \newcommand*{\descriptionStyle}[1]{
     {\fontsize{10pt}{1em}\bodyfontlight\upshape\color{text} #1}
+}
+\newcommand*{\locationStyle}[1]{
+    {\fontsize{9pt}{1em}\bodyfontlight\slshape\color{darktext} #1}
 }
 
 % Skill styles
@@ -144,18 +147,6 @@
     {\fontsize{10pt}{1em}\bodyfontlight\color{text} #1}
 }
 
-%% Size constants
-% Header
-\newcommand{\headerAfterNameSkip}{.4mm}
-\newcommand{\headerAfterPositionSkip}{.4mm}
-\newcommand{\headerAfterAddressSkip}{-.5mm}
-\newcommand{\headerIconSep}{\space}
-\newcommand{\headerSocialSep}{\quad\textbar\quad}
-\newcommand{\headerAfterSocialSkip}{6mm}
-% Others
-\newcommand{\sectionTopSkip}{1mm}
-\newcommand{\sectionContentTopSkip}{0.5mm}
-
 %% Utilities
 % Use to align an element of tabular table
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -165,39 +156,51 @@
 % Use to draw horizontal line with specific thickness
 \def\vhrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
 
-%% Structures
-% CV section \cvsection{<section-title>}
+%% Useful
+
+\definecolor{awesome-emerald}{HTML}{00A388}
+\colorlet{awesome}{awesome-emerald}
+
+\newcommand*{\phoneNumber}[1]{\faIcon{phone-alt}\space #1}
+\newcommand*{\githubLink}[1]{\faIcon{github}\space \href{https://github.com/#1}{github.com/#1}}
+\newcommand*{\telegramLink}[1]{\faIcon{telegram}\space \href{https://t.me/#1}{#1}}
+\newcommand*{\linkedinLink}[1]{\faIcon{linkedin}\space \href{https://www.linkedin.com/in/#1}{linkedin.com/in/#1}}
+\newcommand*{\mailLink}[1]{\faIcon{envelope}\space \href{mailto:#1}{#1}}
+\newcommand*{\technologies}[1]{\descriptionStyle{\underline{Technologies}: #1}}
+
+\newcommand{\headerSocialSep}{\quad\textbar\quad}
+
 \newcommand{\cvsection}[1]{
-    % \vspace{\sectionTopSkip}
     \sectionstyle{#1}
     \phantomsection
     \color{gray}\vhrulefill{0.9pt}
-    \vspace{\sectionTopSkip}
 }
 
-\newenvironment{cventries}{\vspace{\sectionContentTopSkip}}{}
+\newcommand{\columnZero}{2.3cm}
+\newcommand{\columnTwo}{4cm}
+\newcommand{\collapseEntries}{\vspace{-4mm}}
 
-\newenvironment{cventry}{
-    \vspace{-0.5mm}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{2.7cm} L{\textwidth - 2.9cm}}
-}{
-    \end{tabular*}
-}
+% \newenvironment{cventry}{
+%     \vspace{-0.5mm}
+%     \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\columnZero} L{\textwidth - \columnZero}}
+% }{
+%     \end{tabular*}
+%     \vspace{-1mm}
+% }
 
 \newenvironment{cvskills}{
-    \vspace{\sectionContentTopSkip}
     \vspace{-2.0mm}
     \begin{center}
         \setlength\tabcolsep{1ex}
         \setlength{\extrarowheight}{0pt}
-        \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} R{2.7cm} L{\textwidth - 2.9cm}}
+        \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} R{\columnZero} L{\textwidth - \columnZero}}
 }{
         \end{tabular*}
     \end{center}
 }
 
 \newenvironment{cvitems}{
-    \vspace{-4.0mm}
+    \vspace{-4mm}
     \begin{justify}
     \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
         \setlength{\parskip}{0pt}
@@ -205,5 +208,19 @@
 }{
     \end{itemize}
     \end{justify}
-    \vspace{-4.0mm}
+    \vspace{-5mm}
+}
+
+\newcommand*{\cventry}[5]{
+    \vspace{-0.5mm}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\columnZero} L{\textwidth - \columnZero - \columnTwo - 0.85cm} R{\columnTwo}}
+        \dateStyle{#3} & \titleStyle{#1} & \locationStyle{#2}
+    \end{tabular*}
+    \vspace{-6mm}
+
+    \vspace{-0.5mm}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\columnZero} L{\textwidth - \columnZero}}
+        \dateStyle{#4} #5
+    \end{tabular*}
+    \vspace{-1mm}
 }

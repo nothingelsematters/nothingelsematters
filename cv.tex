@@ -2,28 +2,6 @@
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 \fontdir[fonts/]
 
-% Color for highlights
-\definecolor{awesome-emerald}{HTML}{00A388}
-% \definecolor{awesome-skyblue}{HTML}{0395DE}
-% \definecolor{awesome-red}{HTML}{DC3522}
-% \definecolor{awesome-pink}{HTML}{EF4089}
-% \definecolor{awesome-orange}{HTML}{FF6138}
-% \definecolor{awesome-nephritis}{HTML}{27AE60}
-% \definecolor{awesome-concrete}{HTML}{95A5A6}
-% \definecolor{awesome-darknight}{HTML}{131A28}
-\colorlet{awesome}{awesome-emerald}
-
-\newcommand*{\githubLink}[1]{\faIcon{github}\headerIconSep \href{https://github.com/#1}{#1}}
-\newcommand*{\telegramLink}[1]{\faIcon{telegram}\headerIconSep \href{https://t.me/#1}{#1}}
-
-\newcommand*{\technologies}[1]{\descriptionStyle{\underline{Technologies}: #1}}
-
-\newcommand*{\positionEntry}[5]{
-        \dateStyle{#5} & \titleStyle{#1} \\
-        \dateStyle{#3} & \positionStyle{#2} \\
-        \dateStyle{#4} &
-}
-
 \begin{document}
 
 % Header
@@ -34,144 +12,153 @@
         \centering % \raggedleft \raggedright
         \headerfirstnamestyle{Simon}
         \headerlastnamestyle{{}\space Naumov}
-        \\[\headerAfterNameSkip]
-        % \headerpositionstyle{position\\[\headerAfterPositionSkip]}
-        \headeraddressstyle{\faIcon{map-pin} Almaty, Kazakhstan \\[\headerAfterAddressSkip]}
+        \\[.4mm]
+        \headeraddressstyle{\faIcon{map-pin} Almaty, Kazakhstan}
+        \\[-.5mm]
         \headersocialstyle{
-            % \faIcon{mobile}\headerIconSep mobile
-            % \headerSocialSep
-            \faIcon{envelope}\headerIconSep
-                \href{mailto:simon.naumov.work@gmail.com}{simon.naumov.work@gmail.com}
+            \mailLink{simon.naumov.work@gmail.com}
+            \headerSocialSep
+            \linkedinLink{nothingelsematters}
             \headerSocialSep
             \githubLink{nothingelsematters}
             \headerSocialSep
-            \faIcon{linkedin}\headerIconSep
-                \href{https://www.linkedin.com/in/}{nothingelsematters}
-            % \headerSocialSep
-            % \faIcon{twitter}\headerIconSep
-            %     \href{https://twitter.com/twitter}{twitter}
-            % \headerSocialSep
-            % extrainfo
+            \phoneNumber{+77760084637}
         }
-        \\[\headerAfterSocialSkip]
+        \\[6mm]
     \end{minipage}
 }
 
-\cvsection{Experience}
-\begin{cventries}
-    \begin{cventry}
-        \positionEntry
-            {Tinkoff Bank}
-            {Middle+ Rust Developer}
-            {Nov 2021 -- present}{(1 yr 9 mos)}
-            {Almaty, Kazakhstan}
-        \descriptionStyle{Transaction Processing} \\
-        & \descriptionStyle{
-            \begin{cvitems}
-                \item Developed and deployed services performing miscellaneous transactions checks
-                \item Designed and launched a Stand-In Processing system
-                \item Improved performance in high-load microservice system
-                \item Site Reliability Engineering: deployment and failure fixing
-            \end{cvitems}
-        } \\
-        & \technologies{Rust, Cargo, PostgreSQL, Oracle DB, Kafka, etcd}
-    \end{cventry}
+\cvsection{Summary}
 
-    \begin{cventry}
-        \positionEntry
-            {Huawei Technologies}
-            {Middle Java Developer}
-            {Mar 2020 -- Oct 2021}{(1yr 8 mos)}
-            {Saint Petersburg, Russia}
-        \descriptionStyle{Cloud Application Platform} \\
-        & \descriptionStyle{
-            \begin{cvitems}
-                \item Developed an API and data aggregation service
-                \item Introduced Low Code generation solution using data source metadata
-                \item Worked in an international team with colleagues from the Shanghai office
-            \end{cvitems}
-        } \\
-        & \technologies{Java, Maven, Spring, PostgreSQL, MySQL, Docker, Kubernetes}
-    \end{cventry}
+    \descriptionStyle{
+        Passionate Software Developer with an M.S. in Computer Science and 3.5 years of professional experience with different companies, languages and technologies. Proficient in Rust, Kotlin, Java, PostgreSQL and Docker. Passionate about collaborating with talented professionals, suggesting and exchanging ideas. Always strive to see the big picture and understand the business needs.
+    }
 
-    \vspace{-2pt}
 
-    \begin{cventry}
-        & \positionStyle{Junior Java Developer} \\
-        & \descriptionStyle{Big Data Platform} \\
-        & \descriptionStyle{
-            \begin{cvitems}
-                \item Developed a project automating Big Data aggregation configuration
-            \end{cvitems}
-        } \\
-        & \technologies{Java, Maven, Spring, PostgreSQL, graph databases, Gremlin query language}
-    \end{cventry}
+\cvsection{Professional Experience}
 
-    \begin{cventry}
-        \positionEntry
-            {Epam Systems}
-            {Software Engineer Intern}
-            {Feb 2020 -- Mar 2020}{(2 mos)}
-            {Saint Petersburg, Russia}
-         \descriptionStyle{
-            \begin{cvitems}
-                \item Developed and launched a web service performing miscellaneous image transformations
-            \end{cvitems}
-        } \\
-        & \technologies{Kotlin, Gradle}
-    \end{cventry}
-\end{cventries}
+    \cventry
+        {Middle Software Developer, Tinkoff Bank}
+        {Almaty, Kazakhstan}
+        {Nov 2021 -- present} {(1 yr 9 mos)}
+        {
+            & \descriptionStyle{Transaction Processing} \\
+            & \descriptionStyle{
+                \begin{cvitems}
+                    \item Developed and deployed services performing miscellaneous transactions checks
+                    \item Designed and launched a Stand-In Processing system
+                    \item Improved performance in high-load microservice system
+                    \item Site Reliability Engineering: deployment and failure fixing
+                \end{cvitems}
+            } \\
+            & \technologies{Rust, Cargo, PostgreSQL, Oracle DB, Kafka, etcd}
+        }
+
+    \cventry
+        {Middle Software Developer, Huawei Technologies}
+        {Saint Petersburg, Russia}
+        {Apr 2020 -- Oct 2021} {(7 mos)}
+        {
+            & \descriptionStyle{Cloud Application Platform} \\
+            & \descriptionStyle{
+                \begin{cvitems}
+                    \item Developed an API and data aggregation service
+                    \item Introduced Low Code generation solution using data source metadata
+                    \item Worked in an international team with colleagues from the Shanghai office
+                \end{cvitems}
+            } \\
+            & \technologies{Java, Maven, Spring, PostgreSQL, MySQL, Docker, Kubernetes}
+        }
+
+    \cventry
+        {Junior Software Developer, Huawei Technologies}
+        {Saint Petersburg, Russia}
+        {Mar 2020 -- Mar 2021} {(1yr 1mos)}
+        {
+            & \descriptionStyle{Big Data Platform} \\
+            & \descriptionStyle{
+                \begin{cvitems}
+                    \item Developed a project automating Big Data aggregation configuration
+                \end{cvitems}
+            } \\
+            & \technologies{Java, Maven, Spring, PostgreSQL, graph databases}
+        }
+
+    % TODO: remove with the next job
+    \cventry
+        {Intern Software Developer, Epam Systems}
+        {Saint Petersburg, Russia}
+        {Feb 2020 -- Mar 2020} {(2 mos)}
+        {& \technologies{Kotlin, Gradle}}
+
 
 \cvsection{Education}
-\begin{cventries}
-    \begin{cventry}
-        \dateStyle{Saint Petersburg, Russia}
-        & \titleStyle{ITMO University} \\
-        \dateStyle{Sep 2021 - Jun 2023}
-        & \positionStyle{Master's in Computer Science: Programming and Artificial Intelligence} \\
-        \dateStyle{Sep 2017 - Jun 2021}
-        & \positionStyle{Bachelor's in Computer Science: Applied Mathematics and Informatics} \\
-        & \descriptionStyle{
-            University projects:
-            \githubLink{nothingelsematters/university}
+
+    \cventry
+        {Master of Computer Science, ITMO University}
+        {Saint Petersburg, Russia}
+        {Sep 2021 -- Jun 2023} {}
+        {& \descriptionStyle{Programming and Artificial Intelligence}}
+
+    \collapseEntries
+
+    \cventry
+        {Bachelor of Computer Science, ITMO University}
+        {Saint Petersburg, Russia}
+        {Sep 2017 -- Jun 2021} {}
+        {
+            & \descriptionStyle{Applied Mathematics and Informatics} \\
+            \vspace{2mm}
+            & \descriptionStyle{University projects: \githubLink{nothingelsematters/university}}
         }
-    \end{cventry}
-\end{cventries}
+
 
 \cvsection{Conferences}
-\begin{cventries}
-    \begin{cventry}
-        \dateStyle{\href{https://gecco-2023.sigevo.org}{GECCO 2023}}
-        & \positionStyle{Empirical Analysis of Crossover-Based Evolutionary Algorithms on Rugged Landscape} \\
-        \dateStyle{\href{https://www.fhv.at/foga2021/}{FOGA 2021}}
-        & \positionStyle{The Effect of Non-symmetric Fitness: The Analysis of Crossover-Based Algorithms on RealJump Functions}
-    \end{cventry}
-\end{cventries}
 
+    \cventry
+        {The Genetic and Evolutionary Computation Conference (GECCO)}
+        {}
+        {Jul 2023} {}
+        {
+            & \descriptionStyle{\href{https://gecco-2023.sigevo.org}{Empirical Analysis of Crossover-Based Evolutionary Algorithms on Rugged Landscape}}
+        }
+
+    \collapseEntries
+
+    \cventry
+        {Foundations of Genetic Algorithms Conference (FOGA)}
+        {}
+        {Sep 2021} {}
+        {
+            & \descriptionStyle{\href{https://dl.acm.org/doi/10.1145/3450218.3477311}{The Effect of Non-symmetric Fitness: The Analysis of Crossover-Based Algorithms on RealJump Functions}}
+        }
+
+% TODO: remove with the next job
 \cvsection{Side Projects}
-\begin{cventries}
-    \begin{cventry}
-        \dateStyle{Jul 2020 -- Aug 2021}
-        & \titleStyle{Telegram Mentions Bot} \\
-        & \descriptionStyle{A telegram bot to notify groups of users, manage teams and on misspelling suggestions} \\
-        & \descriptionStyle{
-            \githubLink{pool-party/pull-party-bot}
-            \, \textbar \,\,
-            \telegramLink{PullPartyBot}
-        } \\
-        & \technologies{Kotlin, Gradle, PostgreSQL, GitHub Actions, Test Containers}
-    \end{cventry}
-\end{cventries}
+
+    \cventry
+        {Telegram Mentions Bot}
+        {}
+        {Jul 2020 -- Aug 2021} {}
+        {
+            & \descriptionStyle{A telegram bot to notify groups of users, manage teams and on misspelling suggestions} \\
+            & \descriptionStyle{
+                \githubLink{pool-party/pull-party-bot}
+                \, \textbar \,\,
+                \telegramLink{PullPartyBot}
+            } \\
+            & \technologies{Kotlin, Gradle, PostgreSQL, GitHub Actions, Test Containers}
+        }
+
 
 \cvsection{Skills}
-\begin{cvskills}
-    \skillTypeStyle{Programming}
-        & \skillSetStyle{\textbf{Proficient}: Rust, Kotlin, Java} \\
-        & \skillSetStyle{\textbf{Advanced}: Go, C++, SQL}
-    \vspace{4pt} \\
-    \skillTypeStyle{Languages}
-        & \skillSetStyle{English -- fluent} \\
-        & \skillSetStyle{Swedish, German -- elementary}
-\end{cvskills}
+
+    \vspace{2mm}
+    \begin{cvskills}
+        \skillTypeStyle{Programming}
+            & \skillSetStyle{\textbf{Proficient}: Rust, Kotlin, Java, SQL; \textbf{Advanced}: Go, C++} \\
+        \skillTypeStyle{Languages}
+            & \skillSetStyle{English (proficient), Swedish (beginner), German (beginner)}
+    \end{cvskills}
 
 \end{document}
