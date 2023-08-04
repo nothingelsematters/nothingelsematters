@@ -7,8 +7,7 @@
 
 ## Experience
 
-- Nov 2021 - present: | 1y 9mos: **Middle+ Rust Developer** @ **Tinkoff**
-- Mar 2020 - Oct 2021 | 1y 8mos: **Middle Java Developer** @ **Huawei Technologies**
-- Feb 2020 - Mar 2020 | 2mos: **Software Engineer Intern** @ **Epam Systems**
+- Nov 2021 - present: | 1y 10mos: **Middle Rust Developer** @ **Tinkoff**
+- Mar 2020 - Oct 2021 | 1y 8mos: **Junior → Middle Java Developer** @ **Huawei Technologies**
 
 [Full Resume](https://github.com/nothingelsematters/nothingelsematters/blob/master/cv.pdf)
