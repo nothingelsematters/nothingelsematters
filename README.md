@@ -7,7 +7,7 @@
 
 ## Experience
 
-- Nov 2021 - present: | 1y 11mos: **Middle Rust Developer** @ **Tinkoff**
-- Mar 2020 - Oct 2021 | 1y 8mos: **Junior → Middle Java Developer** @ **Huawei Technologies**
+- Nov 2021 - present | 2 yrs: **Rust Software Developer** @ **Tinkoff**
+- Mar 2020 - Oct 2021 | 1 yr 8 mos: **Java Software Developer** @ **Huawei Technologies**
 
 [Full Resume](https://github.com/nothingelsematters/nothingelsematters/blob/master/cv.pdf)
