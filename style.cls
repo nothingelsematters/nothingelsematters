@@ -163,7 +163,7 @@
 
 \newcommand*{\phoneNumber}[1]{\faIcon{phone-alt}\space #1}
 \newcommand*{\githubLink}[1]{\faIcon{github}\space \href{https://github.com/#1}{github.com/#1}}
-\newcommand*{\telegramLink}[1]{\faIcon{telegram}\space \href{https://t.me/#1}{#1}}
+\newcommand*{\telegramLink}[1]{\faIcon{telegram}\space \href{https://t.me/#1}{t.me/#1}}
 \newcommand*{\linkedinLink}[1]{\faIcon{linkedin}\space \href{https://www.linkedin.com/in/#1}{linkedin.com/in/#1}}
 \newcommand*{\mailLink}[1]{\faIcon{envelope}\space \href{mailto:#1}{#1}}
 \newcommand*{\technologies}[1]{\descriptionStyle{\underline{Technologies}: #1}}
