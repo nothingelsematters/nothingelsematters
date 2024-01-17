@@ -1,5 +1,5 @@
 \documentclass[11pt, a4paper]{style}
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=1.1cm, top=.8cm, right=1.1cm, bottom=1cm, footskip=.5cm}
 \fontdir[fonts/]
 
 \begin{document}
@@ -11,10 +11,10 @@
     \begin{minipage}[c]{\headertextwidth}
         \centering % \raggedleft \raggedright
         \headerfirstnamestyle{Simon}
-        \headerlastnamestyle{{}\space Naumov}
+        \headerlastnamestyle{Naumov}
         \\[.4mm]
         \headeraddressstyle{\faIcon{map-pin} Almaty, Kazakhstan}
-        \\[-.5mm]
+        \\[-.4mm]
         \headersocialstyle{
             \mailLink{simon.naumov.work@gmail.com}
             \headerSocialSep
@@ -28,153 +28,155 @@
     \end{minipage}
 }
 
-\cvsection{Summary}
+\setcolumnwidth{5.5cm,2.7cm}
+\begin{paracol}{2}
 
-    \vspace{-2mm}
+
+\cvSection{Professional Experience}
+
+    \cvEntry
+        {Middle Software Developer} {Tinkoff Bank}
+        {Nov 2021 -- present} {2 yrs 3 mos}
+        {Full-time · Almaty, Kazakhstan}
+        {
+            Transaction Processing Team \\
+            \vspace{-5mm}
+            \begin{cvItems}
+                \item Developed services performing finance transaction checks using \underline{Kotlin}, \underline{Rust}, \underline{Docker} and \underline{gRPC}
+                \item \underline{Site Reliability Engineering}: deployed services, fixed production failures, wrote post-mortem reports
+                \item Decreased system downtime by designing and launching a Stand-In Processing back-up system with \underline{PostgreSQL}, \underline{Oracle DB} and \underline{Kafka}
+                \item Improved performance in a high-load microservice system, optimised database queries
+            \end{cvItems}
+        }
+
+    \cvEntry
+        {Junior Software Developer} {Huawei Technologies}
+        {Mar 2020 -- Oct 2021} {1 yr 8 mos}
+        {Full-time · Saint Petersburg, Russia}
+        {
+            Cloud Application Platform \\
+            \vspace{-5mm}
+            \begin{cvItems}
+                \item Developed a service that publishes API of data aggregation from different databases and streaming platforms using \underline{Java}, \underline{Spring}, \underline{Docker} and \underline{Kubernetes}
+                \item Introduced Low Code solution to generate a project that queries and processes data
+                \item Led a team of two interns, fostered a collaborative learning environment and offered constructive feedback
+            \end{cvItems}
+            \vspace{-1mm}
+            Big Data Platform \\
+            \vspace{-5mm}
+            \begin{cvItems}
+                \item Developed a project automating configuration of Big Data aggregation pipelines using \underline{Java}, \underline{Maven}, \underline{PostgreSQL} and \underline{graph databases}
+                % TODO: remove with the next position
+                \item Worked in an international team with colleagues from the Shanghai office
+                \item Improved system performance 1.5 times and reduced the human time spent by 5 times
+            \end{cvItems}
+        }
+
+    \cvEntry
+        {Intern Software Developer} {Epam Systems}
+        {Jan 2020 -- Mar 2020} {3 mos}
+        {Part-time · Saint Petersburg, Russia}
+        {
+            \begin{cvItems}
+                \item Developed a server performing image transformations using \underline{Kotlin} and \underline{Gradle}
+            \end{cvItems}
+        }
+
+
+\cvSection{Education}
+
+    \cvEntry
+        {Master of Computer Science} {ITMO University}
+        {Sep 2021 -- Jun 2023} {}
+        {Saint Petersburg, Russia}
+        {
+            \vspace{-1mm}
+            Programming and Artificial Intelligence
+        }
+
+    \cvEntry
+        {Bachelor of Computer Science} {ITMO University}
+        {Sep 2017 -- Jun 2021} {}
+        {Saint Petersburg, Russia}
+        {
+            \vspace{-1mm}
+            Applied Mathematics and Informatics
+        }
+
+    % TODO: remove with the next position
+    \vspace{-1mm}
+    \descriptionStyle{University projects: \githubLink{nothingelsematters/university}}
+
+
+\cvSection{Conferences}
+
+    \cvEntry
+        {The Genetic and Evolutionary Computation Conference (GECCO)} {} {} {} {}
+        {
+            \vspace{1.5mm}
+            Jul 2023 · \href{https://dl.acm.org/doi/10.1145/3583133.3596328}{Empirical Analysis of Crossover-Based Evolutionary Algorithms on Rugged Landscape}
+        }
+
+    \cvEntry
+        {Foundations of Genetic Algorithms Conference (FOGA)} {} {} {} {}
+        {
+            \vspace{1.5mm}
+            Sep 2021 · \href{https://dl.acm.org/doi/10.1145/3450218.3477311}{The Effect of Non-symmetric Fitness: The Analysis of Crossover-Based Algorithms on RealJump Functions}
+        }
+
+
+\cvSection{Side Projects}
+
+    \cvEntry
+        {Mentions Telegram Bot} {}
+        {Jul 2020 -- Aug 2021} {}
+        {}
+        {
+            \begin{cvItems}
+                \item A Telegram bot to notify groups of users, manage them and suggest if misspelled
+                \item Written using \underline{Kotlin} and \underline{Gradle} and deployed with \underline{PostgreSQL}
+                \item Configured CI/CD pipeline with \underline{GitHub Actions} and tests with \underline{Test Containers}
+            \end{cvItems}
+            \vspace{-1mm}
+            \telegramLink{PullPartyBot} \, \githubLink{pool-party/pull-party-bot}
+        }
+
+
+\switchcolumn
+
+
+\cvSection{Summary}
+
+    \vspace{-1mm}
     \descriptionStyle{
         Highly motivated and skilled software engineer with 4 years of experience in developing and deploying robust solutions for diverse projects. Proficient in Kotlin, Java and Rust. Master's degree in Computer Science, complemented by strong problem-solving abilities and a passion for innovation. Enthusiastic about exploring new technologies and delivering exceptional results.
     }
 
-\cvsection{Professional Experience}
 
-    \cventry
-        {Middle Software Developer, Tinkoff Bank}
-        {Almaty, Kazakhstan}
-        {Nov 2021 -- present} {(2 yrs 3 mos)}
-        {
-            & \descriptionStyle{Transaction Processing} \\
-            & \descriptionStyle{
-                \begin{cvitems}
-                    \item Developed and deployed services performing miscellaneous transaction checks
-                    \item Decreased system downtime by designing and launching a Stand-In Processing back-up system
-                    \item Improved performance in a high-load microservice system, optimised database queries
-                    \item Site Reliability Engineering: deployed services and fixed production failures
-                \end{cvitems}
-            } \\
-            & \technologies{Kotlin, Rust, PostgreSQL, Oracle DB, Kafka, etcd, Docker, RESTful API, gRPC}
-        }
-
-    \cventry
-        {Middle Software Developer, Huawei Technologies}
-        {Saint Petersburg, Russia}
-        {Apr 2021 -- Oct 2021} {(7 mos)}
-        {
-            & \descriptionStyle{Cloud Application Platform} \\
-            & \descriptionStyle{
-                \begin{cvitems}
-                    \item Developed a service that publishes API of data aggregation from different databases
-                    \item Introduced Low Code solution to generate a project querying and processing data
-                    \item Led a team of two interns, fostered a collaborative learning environment and offered constructive feedback
-                    % TODO: remove with the next job
-                    \item Worked in an international team with colleagues from the Shanghai office
-                \end{cvitems}
-            } \\
-            & \technologies{Java, Maven, Spring, PostgreSQL, MySQL, Docker, Kubernetes}
-        }
-
-    \cventry
-        {Junior Software Developer, Huawei Technologies}
-        {Saint Petersburg, Russia}
-        {Mar 2020 -- Mar 2021} {(1 yr 1 mo)}
-        {
-            & \descriptionStyle{Big Data Platform} \\
-            & \descriptionStyle{
-                \begin{cvitems}
-                    \item Developed a project automating Big Data aggregation pipelines configuration from scratch
-                    \item Improved system performance 1.5 times and reduced the human time spent by 5 times
-                    \item Successfully launched the service and handed it over to maintain to another team
-                \end{cvitems}
-            } \\
-            & \technologies{Java, Maven, Spring, PostgreSQL, graph databases}
-        }
-
-    \cventry
-        {Intern Software Developer, Epam Systems}
-        {Saint Petersburg, Russia}
-        {Jan 2020 -- Mar 2020} {(3 mos)}
-        {
-            & \descriptionStyle{
-                \begin{cvitems}
-                    \item Developed a server performing miscellaneous image transformations
-                \end{cvitems}
-            } \\
-            & \technologies{Kotlin, Gradle}
-        }
-
-\cvsection{Education}
-
-    \cventry
-        {Master of Computer Science, ITMO University}
-        {Saint Petersburg, Russia}
-        {Sep 2021 -- Jun 2023} {}
-        {& \descriptionStyle{Programming and Artificial Intelligence}}
-
-    \collapseEntries
-
-    \cventry
-        {Bachelor of Computer Science, ITMO University}
-        {Saint Petersburg, Russia}
-        {Sep 2017 -- Jun 2021} {}
-        {
-            & \descriptionStyle{Applied Mathematics and Informatics} \\
-            % TODO: remove with the next job
-            \vspace{1mm}
-            & \descriptionStyle{University projects: \githubLink{nothingelsematters/university}}
-        }
-
-    \vspace{-1mm}
-
-
-\cvsection{Conferences}
-
-    \cventry
-        {The Genetic and Evolutionary Computation Conference (GECCO)}
-        {}
-        {Jul 2023} {}
-        {
-            & \descriptionStyle{\href{https://gecco-2023.sigevo.org}{Empirical Analysis of Crossover-Based Evolutionary Algorithms on Rugged Landscape}}
-        }
-
-    \collapseEntries
-
-    \cventry
-        {Foundations of Genetic Algorithms Conference (FOGA)}
-        {}
-        {Sep 2021} {}
-        {
-            & \descriptionStyle{\href{https://dl.acm.org/doi/10.1145/3450218.3477311}{The Effect of Non-symmetric Fitness: The Analysis of Crossover-Based Algorithms on RealJump Functions}}
-        }
-
-    \vspace{-3mm}
-
-
-% \cvsection{Side Projects}
-
-%     \cventry
-%         {Telegram Mentions Bot}
-%         {}
-%         {Jul 2020 -- Aug 2021} {}
-%         {
-%             & \descriptionStyle{A telegram bot to notify groups of users, manage them and suggest if misspelled} \\
-%             & \descriptionStyle{
-%                 \githubLink{pool-party/pull-party-bot}
-%                 \, \textbar \,\,
-%                 \telegramLink{PullPartyBot}
-%             } \\
-%             & \technologies{Kotlin, Gradle, PostgreSQL, GitHub Actions, Test Containers}
-%         }
-
-
-\cvsection{Skills}
+\cvSection{Skills}
 
     \vspace{2mm}
-    \begin{cvskills}
-        \skillTypeStyle{Programming}
-            & \skillSetStyle{Kotlin, Rust, Java, Spring, Gradle; Git, Docker; PostgreSQL, Kafka; Algorithms and Data Structures} \\
+    \begin{cvSkills}
+        \skillTypeStyle{Development}
+            & \skillSetStyle{Kotlin, Rust, Java,} \\
+            & \skillSetStyle{Spring, Gradle,} \\
+            & \skillSetStyle{RESTful API, gRPC} \\
+        \skillTypeStyle{Technologies}
+            & \skillSetStyle{PostgreSQL, MySQL,} \\
+            & \skillSetStyle{Oracle DB, Kafka} \\
+        \skillTypeStyle{Tools}
+            & \skillSetStyle{Git, Docker, Gitlab CI,} \\
+            & \skillSetStyle{Test Containers} \\
         \skillTypeStyle{Soft Skills}
-            & \skillSetStyle{Problem-solving, Adaptability, Teamwork, Attention to Detail, Continuous Learning, Open-Minded} \\
+            & \skillSetStyle{Problem-solving,} \\
+            & \skillSetStyle{Adaptability, Teamwork, Attention to Detail, Continuous Learning, Open-Minded} \\
         \skillTypeStyle{Languages}
-            & \skillSetStyle{English (proficient), German (elementary), Swedish (beginner)}
-    \end{cvskills}
+            & \skillSetStyle{English (proficient),} \\
+            & \skillSetStyle{German (elementary),} \\
+            & \skillSetStyle{Swedish (elementary)}
+    \end{cvSkills}
+
+
+\end{paracol}
 
 \end{document}

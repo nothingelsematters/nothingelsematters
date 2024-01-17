@@ -27,6 +27,7 @@
 \RequirePackage[skins]{tcolorbox}
 \RequirePackage{parskip}  % to deal a paragraphs
 \RequirePackage[hidelinks,unicode]{hyperref} % to deal hyperlink
+\RequirePackage{paracol}
 
 \usepackage{fontawesome5}
 \hypersetup{
@@ -113,39 +114,31 @@
 
 % Section styles
 \def\@sectioncolor#1{{\color{awesome}#1}}
-\newcommand*{\sectionstyle}[1]{
-    {\fontsize{16pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}
-}
-\newcommand*{\subsectionstyle}[1]{
-    {\fontsize{12pt}{1em}\bodyfont\scshape\textcolor{text}{#1}}
-}
-\newcommand*{\paragraphstyle}{
-    \fontsize{9pt}{1em}\bodyfontlight\upshape\color{text}
-}
+\newcommand*{\sectionstyle}[1]
+{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
 
 % Entry styles
-\newcommand*{\titleStyle}[1]{
-    {\fontsize{11pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\positionStyle}[1]{
-    {\fontsize{10pt}{1em}\bodyfont\scshape\color{graytext} #1}
-}
-\newcommand*{\dateStyle}[1]{
-    {\fontsize{8pt}{1em}\bodyfontlight\color{graytext} #1}
-}
-\newcommand*{\descriptionStyle}[1]{
-    {\fontsize{10pt}{1em}\bodyfontlight\upshape\color{text} #1}
-}
-\newcommand*{\locationStyle}[1]{
-    {\fontsize{9pt}{1em}\bodyfontlight\slshape\color{darktext} #1}
-}
+\newcommand*{\titleStyle}[1]
+{{\fontsize{11pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+
+\newcommand*{\companyStyle}[1]
+{{\fontsize{10pt}{1em}\bodyfontlight\bfseries\color{darktext} #1}}
+
+\newcommand*{\dateStyle}[1]
+{{\fontsize{8pt}{1em}\bodyfontlight\color{graytext} #1}}
+
+\newcommand*{\descriptionStyle}[1]
+{{\fontsize{10pt}{1em}\bodyfontlight\upshape\color{text} #1}}
+
+\newcommand*{\locationStyle}[1]
+{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{darktext} #1}}
 
 % Skill styles
-\newcommand*{\skillTypeStyle}[1]{
-    {\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}
-}
-\newcommand*{\skillSetStyle}[1]{
-    {\fontsize{10pt}{1em}\bodyfontlight\color{text} #1}
-}
+\newcommand*{\skillTypeStyle}[1]
+{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+
+\newcommand*{\skillSetStyle}[1]
+{{\fontsize{10pt}{1em}\bodyfontlight\color{text} #1}}
 
 %% Utilities
 % Use to align an element of tabular table
@@ -170,37 +163,29 @@
 
 \newcommand{\headerSocialSep}{\quad\textbar\quad}
 
-\newcommand{\cvsection}[1]{
+\newcommand{\cvSection}[1]{
+    \vspace{0.5mm}
     \sectionstyle{#1}
     \phantomsection
     \color{gray}\vhrulefill{0.9pt}
 }
 
-\newcommand{\columnZero}{2.3cm}
-\newcommand{\columnTwo}{4cm}
-\newcommand{\collapseEntries}{\vspace{-4mm}}
-
-% \newenvironment{cventry}{
-%     \vspace{-0.5mm}
-%     \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\columnZero} L{\textwidth - \columnZero}}
-% }{
-%     \end{tabular*}
-%     \vspace{-1mm}
-% }
-
-\newenvironment{cvskills}{
+\newenvironment{cvSkills}{
     \vspace{-2.0mm}
     \begin{center}
         \setlength\tabcolsep{1ex}
         \setlength{\extrarowheight}{0pt}
-        \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} R{\columnZero} L{\textwidth - \columnZero}}
+        \begin{tabular*}{\columnwidth}{
+            @{\extracolsep{\fill}}
+            L{2.1cm}
+            L{\columnwidth - 2cm}
+        }
 }{
         \end{tabular*}
     \end{center}
 }
 
-\newenvironment{cvitems}{
-    \vspace{-4mm}
+\newenvironment{cvItems}{
     \begin{justify}
     \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
         \setlength{\parskip}{0pt}
@@ -208,19 +193,15 @@
 }{
     \end{itemize}
     \end{justify}
-    \vspace{-5mm}
 }
 
-\newcommand*{\cventry}[5]{
+\newcommand*{\cvEntry}[6]{
     \vspace{-0.5mm}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\columnZero} L{\textwidth - \columnZero - \columnTwo - 0.85cm} R{\columnTwo}}
-        \dateStyle{#3} & \titleStyle{#1} & \locationStyle{#2}
-    \end{tabular*}
-    \vspace{-6mm}
+    \titleStyle{#1}\companyStyle{\ifstrempty{#2}{}{\ \textbar\ #2}}
+    \vspace{-3mm}
 
-    \vspace{-0.5mm}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\columnZero} L{\textwidth - \columnZero}}
-        \dateStyle{#4} #5
-    \end{tabular*}
+    \dateStyle{#3\ifstrempty{#4}{}{ (#4)}\ifstrempty{#5}{}{ · #5}}
     \vspace{-1mm}
+
+    \descriptionStyle{#6}
 }
