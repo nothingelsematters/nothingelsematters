@@ -7,7 +7,7 @@
 
 ## Experience
 
-- Nov 2021 - present | 2 yrs 3 mos: **Rust Software Developer** @ **Tinkoff Bank**
+- Nov 2021 - present | 2 yrs 4 mos: **Rust Software Developer** @ **Tinkoff Bank**
 - Mar 2020 - Oct 2021 | 1 yr 8 mos: **Java Software Developer** @ **Huawei Technologies**
 
 [Full Resume](https://github.com/nothingelsematters/nothingelsematters/blob/master/cv.pdf)
