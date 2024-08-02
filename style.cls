@@ -164,7 +164,7 @@
 \newcommand{\headerSocialSep}{\quad\textbar\quad}
 
 \newcommand{\cvSection}[1]{
-    \vspace{0.7mm}
+    \vspace{1.2mm}
     \sectionstyle{#1}
     \phantomsection
     \color{gray}\vhrulefill{0.9pt}
