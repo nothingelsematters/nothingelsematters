@@ -2,9 +2,9 @@
 
 ## Experience
 
-- Aug 2024 - present | 7 mos: **Kotlin Software Developer** @ **Zalando**
-- Nov 2021 - Jul 2024 | 2 yrs 9 mos: **Rust Software Developer** @ **Tinkoff Bank**
-- Mar 2020 - Oct 2021 | 1 yr 8 mos: **Java Software Developer** @ **Huawei Technologies**
+- Aug 2024 - present | 8 mos: **Kotlin Software Engineer** @ **Zalando**
+- Nov 2021 - Jul 2024 | 2 yrs 9 mos: **Rust Software Engineer** @ **Tinkoff Bank**
+- Mar 2020 - Oct 2021 | 1 yr 8 mos: **Java Software Engineer** @ **Huawei Technologies**
 
 ## Education
 
