@@ -84,7 +84,7 @@
     BoldItalicFont=*-BoldItalic,
 ]{Roboto}
 
-\newfontfamily\headerfontlight[
+\newfontfamily\headerfontthin[
     Path=\@fontdir,
     UprightFont=*-Thin,
     ItalicFont=*-ThinItalic,
@@ -92,12 +92,21 @@
     BoldItalicFont=*-MediumItalic,
 ]{Roboto}
 
+\newfontfamily\headerfontlight[
+    Path=\@fontdir,
+    UprightFont=*-Light,
+    ItalicFont=*-Italic,
+    BoldFont=*-Bold,
+    BoldItalicFont=*-BoldItalic,
+]{Roboto}
+
 \newcommand*{\bodyfont}{\sourcesanspro}
 \newcommand*{\bodyfontlight}{\sourcesansprolight}
+\newcommand{\textsb}[1]{{\headerfont #1}}
 
 %% Styles
 \newcommand*{\headerfirstnamestyle}[1]{
-    {\fontsize{32pt}{1em}\headerfontlight\color{graytext} #1}
+    {\fontsize{32pt}{1em}\headerfontthin\color{graytext} #1}
 }
 \newcommand*{\headerlastnamestyle}[1]{
     {\fontsize{32pt}{1em}\headerfont\bfseries\color{text} #1}
@@ -125,13 +134,13 @@
 {{\fontsize{10pt}{1em}\bodyfontlight\bfseries\color{darktext} #1}}
 
 \newcommand*{\dateStyle}[1]
-{{\fontsize{8pt}{1em}\bodyfontlight\color{graytext} #1}}
+{{\fontsize{8pt}{1em}\bodyfontlight\color{awesome} #1}}
 
 \newcommand*{\descriptionStyle}[1]
-{{\fontsize{10pt}{1em}\bodyfontlight\upshape\color{text} #1}}
+{{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 
 \newcommand*{\locationStyle}[1]
-{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{darktext} #1}}
+{{\fontsize{8pt}{1em}\bodyfontlight\color{graytext} #1}}
 
 % Skill styles
 \newcommand*{\skillTypeStyle}[1]
@@ -142,9 +151,9 @@
 
 %% Utilities
 % Use to align an element of tabular table
-\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
 
 % Use to draw horizontal line with specific thickness
 \def\vhrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
@@ -164,14 +173,13 @@
 \newcommand{\headerSocialSep}{\quad\textbar\quad}
 
 \newcommand{\cvSection}[1]{
-    \vspace{1.2mm}
+    \vspace{2mm}
     \sectionstyle{#1}
     \phantomsection
     \color{gray}\vhrulefill{0.9pt}
 }
 
 \newenvironment{cvSkills}{
-    \vspace{-2.0mm}
     \begin{center}
         \setlength\tabcolsep{1ex}
         \setlength{\extrarowheight}{0pt}
@@ -186,6 +194,7 @@
 }
 
 \newenvironment{cvItems}{
+    \vspace{-2mm}
     \begin{justify}
     \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
         \setlength{\parskip}{0pt}
@@ -197,11 +206,17 @@
 
 \newcommand*{\cvEntry}[6]{
     \vspace{-0.5mm}
-    \titleStyle{#1}\companyStyle{\ifstrempty{#2}{}{\ \textbar\ #2}}
-    \vspace{-3mm}
+    \begin{tabular*}{\columnwidth}{
+        @{\extracolsep{\fill}}
+        L{\columnwidth - 4.29cm}
+        R{3.8cm}
+    }
+        \ifstrempty{#1}{}{\titleStyle{#1}\ \textbar\ }\companyStyle{#2} &
+        \dateStyle{#3\ifstrempty{#4}{}{ (#4)}}
+    \end{tabular*}
 
-    \dateStyle{#3\ifstrempty{#4}{}{ (#4)}\ifstrempty{#5}{}{ · #5}}
-    \vspace{-1mm}
+    \ifstrempty{#5}{}{\vspace{-3mm}\locationStyle{#5}}
 
+    \vspace{-1.4mm}
     \descriptionStyle{#6}
 }

@@ -1,5 +1,5 @@
 \documentclass[11pt, a4paper]{style}
-\geometry{left=1.1cm, top=.8cm, right=1.1cm, bottom=1cm, footskip=.5cm}
+\geometry{left=1.1cm, top=0.8cm, right=1.1cm, bottom=1cm, footskip=0.5cm}
 \fontdir[fonts/]
 
 \begin{document}
@@ -12,9 +12,9 @@
         \centering % \raggedleft \raggedright
         \headerfirstnamestyle{Simon}
         \headerlastnamestyle{Naumov}
-        \\[.4mm]
+        \\[1.0mm]
         \headeraddressstyle{\faIcon{map-pin} Berlin, Germany}
-        \\[-.4mm]
+        \\[1.0mm]
         \headersocialstyle{
             \mailLink{simon.naumov.work@gmail.com}
             \headerSocialSep
@@ -24,7 +24,7 @@
             \headerSocialSep
             \phoneNumber{+4916090378841}
         }
-        \\[6mm]
+        \\[8mm]
     \end{minipage}
 }
 
@@ -36,52 +36,48 @@
 
     \cvEntry
         {Middle Software Engineer} {Zalando}
-        {Aug 2024 -- present} {1 yr 4 mos}
+        {Aug 2024 -- present} {1y 4m}
         {Full-time · Berlin, Germany}
         {
-            Fulfillment Offering Team \\
-            \vspace{-5mm}
+            \textsb{Fulfillment Offering Team}
             \begin{cvItems}
-                % \item Led design and implementation of a large-scale delivery cutoff visibility initiative across 15 services and 7 teams, including front-end integration with React/TypeScript and \underline{cross-team coordination}
+                % \item Led design and implementation of a large-scale delivery cutoff visibility initiative across 15 services and 7 teams, including front-end integration with React/TypeScript and \textbf{cross-team coordination}
                 \item Re-architected a legacy service into a shared library, executing implementation, shadow testing, and rollout across two teams to improve reliability and reduce operational overhead
                 % \item Chaired Weekly Operational Review Meetings, driving operational improvements and setting a new departmental quality standard
-                \item Developed and maintained backend services aggregating delivery options and time promises using \underline{Kotlin}, Spring Boot, AWS, and Kafka
+                \item Developed and maintained backend services aggregating delivery options and time promises using \textsb{Kotlin}, Spring Boot, AWS, and Kafka
             \end{cvItems}
         }
 
     \cvEntry
         {Middle Software Engineer} {Tinkoff Bank}
-        {Nov 2021 -- Jul 2024} {2 yrs 9 mos}
+        {Nov 2021 -- Jul 2024} {2y 9m}
         {Full-time · Almaty, Kazakhstan}
         {
-            Transaction Processing Team \\
-            \vspace{-5mm}
+            \textsb{Transaction Processing Team}
             \begin{cvItems}
-                \item Engineered high-reliability financial transaction validation services using \underline{Rust}, Docker, and gRPC in a high-load production environment
+                \item Engineered high-reliability financial transaction validation services using \textsb{Rust}, Docker, and gRPC in a high-load production environment
                 \item Designed and launched a Stand-In Processing backup system (PostgreSQL, Oracle DB, Kafka), reducing downtime incidents and ensuring uninterrupted transaction flow during system outages
                 \item Improved database query efficiency and overall throughput of core microservices through targeted query optimisation and performance tuning
-                \item \underline{Site Reliability Engineering}: deployed services, resolved production incidents, and conducted post-mortems to strengthen platform resilience
+                \item \textsb{Site Reliability Engineering}: deployed services, resolved production incidents, and conducted post-mortems to strengthen platform resilience
             \end{cvItems}
         }
 
     \cvEntry
         {Junior Software Engineer} {Huawei Technologies}
-        {Mar 2020 -- Oct 2021} {1 yr 8 mos}
+        {Mar 2020 -- Oct 2021} {1y 8m}
         {Full-time · Saint Petersburg, Russia}
         {
-            Cloud Application Platform \\
-            \vspace{-5mm}
+            \textsb{Cloud Application Platform}
             \begin{cvItems}
-                \item Built and maintained a service for dynamic publication of APIs aggregating data from multiple databases and streaming sources using \underline{Java}, Docker, and Kubernetes
+                \item Built and maintained a service for dynamic publication of APIs aggregating data from multiple databases and streaming sources using \textsb{Java}, Docker, and Kubernetes
                 \item Introduced a Low-Code project generation framework to automate data query and processing pipelines, significantly accelerating developer productivity
-                \item \underline{Mentored and led two interns}, establishing clear development practices and promoting collaborative delivery
+                \item \textsb{Mentored and led two interns}, establishing clear development practices and promoting collaborative delivery
             \end{cvItems}
             \vspace{-1mm}
-            Big Data Platform \\
-            \vspace{-5mm}
+            \textsb{Big Data Platform}
             \begin{cvItems}
-                \item Designed and implemented automation tooling for Big Data pipeline configuration using \underline{Java}, PostgreSQL, and graph databases
-                \item Enhanced system performance by \underline{1.5 times} and reduced manual configuration effort by \underline{5 times} through workflow automation
+                \item Designed and implemented automation tooling for Big Data pipeline configuration using \textsb{Java}, PostgreSQL, and graph databases
+                \item Enhanced system performance by \textsb{1.5 times} and reduced manual configuration effort by \textsb{5 times} through workflow automation
             \end{cvItems}
         }
 
@@ -105,18 +101,20 @@
             Applied Mathematics and Informatics
         }
 
+\cvSection{Conferences}
+
     \cvEntry
-        {The Genetic and Evolutionary Computation Conference (GECCO)} {} {} {} {}
+        {} {The Genetic and Evolutionary Computation Conference (GECCO)}
+        {Jul 2023} {} {}
         {
-            \vspace{1.5mm}
-            Jul 2023 · \href{https://dl.acm.org/doi/10.1145/3583133.3596328}{Empirical Analysis of Crossover-Based Evolutionary Algorithms on Rugged Landscape}
+            \href{https://dl.acm.org/doi/10.1145/3583133.3596328}{Empirical Analysis of Crossover-Based Evolutionary Algorithms on Rugged Landscape}
         }
 
     \cvEntry
-        {Foundations of Genetic Algorithms Conference (FOGA)} {} {} {} {}
+        {} {Foundations of Genetic Algorithms Conference (FOGA)}
+        {Sep 2021} {} {}
         {
-            \vspace{1.5mm}
-            Sep 2021 · \href{https://dl.acm.org/doi/10.1145/3450218.3477311}{The Effect of Non-symmetric Fitness: The Analysis of Crossover-Based Algorithms on RealJump Functions}
+            \href{https://dl.acm.org/doi/10.1145/3450218.3477311}{The Effect of Non-symmetric Fitness: The Analysis of Crossover-Based Algorithms on RealJump Functions}
         }
 
 
@@ -130,29 +128,19 @@
         Software Engineer with 6 years of experience building and scaling backend systems in Kotlin, Java, and Rust. Strong background in designing resilient architectures, driving cross-team initiatives, and delivering production-ready solutions. Hold a Master’s degree in Computer Science and bring technical depth with a focus on reliability, performance, and continuous improvement.
     }
 
-
 \cvSection{Skills}
 
-    \vspace{2mm}
     \begin{cvSkills}
         \skillTypeStyle{Development}
-            & \skillSetStyle{Kotlin, Java, Rust,} \\
-            & \skillSetStyle{Spring, Gradle, Maven,} \\
-            & \skillSetStyle{RESTful API, gRPC} \\
+            & \skillSetStyle{Kotlin, Java, Rust, Spring, Gradle, Maven, RESTful API, gRPC} \\
         \skillTypeStyle{Technologies}
-            & \skillSetStyle{PostgreSQL, MySQL,} \\
-            & \skillSetStyle{Oracle DB, Kafka} \\
+            & \skillSetStyle{PostgreSQL, MySQL, Oracle DB, Kafka} \\
         \skillTypeStyle{Tools}
-            & \skillSetStyle{Git, Docker, Kubernetes,} \\
-            & \skillSetStyle{Test Containers} \\
+            & \skillSetStyle{Git, Docker, Kubernetes, Test Containers} \\
         \skillTypeStyle{Soft Skills}
-            & \skillSetStyle{Problem-solving,} \\
-            & \skillSetStyle{Adaptability, Teamwork, Attention to Detail, Continuous Learning, Open-Minded} \\
+            & \skillSetStyle{Problem-solving, Adaptability, Teamwork, Attention to Detail, Continuous Learning, Open-Minded} \\
         \skillTypeStyle{Languages}
-            & \skillSetStyle{English (proficient),} \\
-            & \skillSetStyle{German (intermediate),} \\
-            & \skillSetStyle{Swedish (elementary),} \\
-            & \skillSetStyle{Russian (native)}
+            & \skillSetStyle{English (proficient), German (intermediate), Swedish (elementary)}
     \end{cvSkills}
 
 
