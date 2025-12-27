@@ -39,6 +39,14 @@
     urlcolor=awesome,
 }
 
+% Disable hyphenation globally (ATS-friendly)
+\usepackage[none]{hyphenat}
+\sloppy
+\setlength{\emergencystretch}{3em}
+\defaultfontfeatures{
+    Ligatures=NoCommon
+}
+
 %% Page Layout
 % Configure page margins with geometry
 \geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
@@ -196,6 +204,8 @@
 \newenvironment{cvItems}{
     \vspace{-2mm}
     \begin{justify}
+    \sloppy
+    \raggedright
     \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
         \setlength{\parskip}{0pt}
         \renewcommand{\labelitemi}{\bullet}
