@@ -2,7 +2,7 @@
 
 ## Experience
 
-- Aug 2024 - present | 1 yr 5 mos: **Kotlin Software Engineer** @ **Zalando**
+- Aug 2024 - present | 1 yr 6 mos: **Kotlin Software Engineer** @ **Zalando**
 - Nov 2021 - Jul 2024 | 2 yrs 9 mos: **Rust Software Engineer** @ **Tinkoff Bank**
 - Mar 2020 - Oct 2021 | 1 yr 8 mos: **Java Software Engineer** @ **Huawei Technologies**
 
