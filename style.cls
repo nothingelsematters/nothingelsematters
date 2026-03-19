@@ -214,6 +214,15 @@
     \end{justify}
 }
 
+\newenvironment{cvSummary}{
+    \vspace{3mm}
+    \setlength{\parskip}{0pt}
+    \setlength{\baselineskip}{11pt}
+    \begin{justify}
+}{
+    \end{justify}
+}
+
 \newcommand*{\cvEntry}[6]{
     \vspace{-0.5mm}
     \begin{tabular*}{\columnwidth}{
