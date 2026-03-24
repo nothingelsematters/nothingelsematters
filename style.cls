@@ -152,7 +152,7 @@
 
 % Skill styles
 \newcommand*{\skillTypeStyle}[1]
-{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+{{\fontsize{10pt}{1em}\bodyfont\color{text} \textsb{#1}}}
 
 \newcommand*{\skillSetStyle}[1]
 {{\fontsize{10pt}{1em}\bodyfontlight\color{text} #1}}
@@ -176,7 +176,7 @@
 \newcommand*{\telegramLink}[1]{\faIcon{telegram}\space \href{https://t.me/#1}{t.me/#1}}
 \newcommand*{\linkedinLink}[1]{\faIcon{linkedin}\space \href{https://www.linkedin.com/in/#1}{linkedin.com/in/#1}}
 \newcommand*{\mailLink}[1]{\faIcon{envelope}\space \href{mailto:#1}{#1}}
-\newcommand*{\technologies}[1]{\descriptionStyle{\underline{Technologies}: #1}}
+
 
 \newcommand{\headerSocialSep}{\quad\textbar\quad}
 
@@ -193,8 +193,8 @@
         \setlength{\extrarowheight}{0pt}
         \begin{tabular*}{\columnwidth}{
             @{\extracolsep{\fill}}
-            L{2.1cm}
-            L{\columnwidth - 2cm}
+            L{2.2cm}
+            L{\columnwidth - 2.6cm}
         }
 }{
         \end{tabular*}
@@ -202,7 +202,7 @@
 }
 
 \newenvironment{cvItems}{
-    \vspace{-2mm}
+    \vspace{-1mm}
     \begin{justify}
     \sloppy
     \raggedright
@@ -224,7 +224,6 @@
 }
 
 \newcommand*{\cvEntry}[6]{
-    \vspace{-0.5mm}
     \begin{tabular*}{\columnwidth}{
         @{\extracolsep{\fill}}
         L{\columnwidth - 4.29cm}

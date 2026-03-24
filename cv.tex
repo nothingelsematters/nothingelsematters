@@ -1,5 +1,5 @@
 \documentclass[11pt, a4paper]{style}
-\geometry{left=1.1cm, top=0.8cm, right=1.1cm, bottom=1cm, footskip=0.5cm}
+\geometry{left=1.1cm, top=1cm, right=1.1cm, bottom=1cm, footskip=0.5cm}
 \fontdir[fonts/]
 
 \begin{document}
@@ -9,12 +9,12 @@
     \newlength{\headertextwidth}
     \setlength{\headertextwidth}{\textwidth}
     \begin{minipage}[c]{\headertextwidth}
-        \centering % \raggedleft \raggedright
+        \centering
         \headerfirstnamestyle{Simon}
         \headerlastnamestyle{Naumov}
-        \\[1.0mm]
+        \\[2.0mm]
         \headeraddressstyle{\faIcon{map-pin} Berlin, Germany}
-        \\[1.0mm]
+        \\[3.0mm]
         \headersocialstyle{
             \mailLink{simon.naumov.work@gmail.com}
             \headerSocialSep
@@ -24,13 +24,13 @@
             \headerSocialSep
             \phoneNumber{+4916090378841}
         }
-        \\[8mm]
     \end{minipage}
+
+    \vspace{4mm}
 }
 
-\setcolumnwidth{5.5cm,2.6cm}
+\setcolumnwidth{5.6cm,2.6cm}
 \begin{paracol}{2}
-
 
 \cvSection{Professional Experience}
 
@@ -41,11 +41,11 @@
         {
             \textsb{Fulfillment Offering Team}
             \begin{cvItems}
-                \item \textsb{Technical Leadership}: Led end-to-end technical design of a complex customer-facing delivery initiative across 4 departments and 7 teams, translating ambiguous product goals into execution-ready plans
-                \item \textsb{Architecture}: Redesigned a critical distributed component by replacing a standalone service with a shared library, eliminating network dependencies, reduce operational risk, and lowering cloud costs
-                \item \textsb{Backend Systems}: Built and operated backend services aggregating delivery options and time guarantees (Kotlin, Spring Boot, AWS, Kafka)
-                \item \textsb{Cross-Team Alignment}: Coordinated with external teams to unblock a high-priority product experiment
+                \item \textsb{Cross-Domain Leadership}: Led end-to-end technical design of a complex customer-facing delivery initiative across 4 departments and 7 teams, translating ambiguous product goals into execution-ready plans
+                \item \textsb{Architecture}: Redesigned a critical distributed component by replacing a standalone service with a shared library, eliminating network dependencies, reducing operational risk, and lowering cloud costs
+                \item \textsb{Backend Delivery \& Cross-Team Alignment}: Delivered backend services supporting 15+ customer-facing features across multiple teams, unblocking dependencies and ensuring timely rollout (Kotlin, Spring Boot, AWS, Kafka)
                 \item \textsb{Operational Excellence}: Chaired department-wide operational reviews, raising standards for incident analysis, alerting, and remediation
+                \item \textsb{Community \& Standards}: Led company-wide engineering initiatives for Kotlin best practices, chairing working sessions, shaping cross-team standards, and mentoring engineers
             \end{cvItems}
         }
 
@@ -56,7 +56,7 @@
         {
             \textsb{Transaction Processing Team}
             \begin{cvItems}
-                \item \textsb{Transaction Systems}: Engineered high-reliability financial transaction validation services (Rust, Docker, and gRPC) in a high-load production environment
+                \item \textsb{Transaction Systems}: Engineered high-reliability financial transaction validation services in a high-load production environment (Rust, Kubernetes, and gRPC)
                 \item \textsb{Resilience}: Designed and launched a Stand-In Processing backup system, reducing downtime and ensuring uninterrupted transaction flow during system outages
                 \item \textsb{Performance}: Improved database query efficiency and microservice throughput via targeted query optimisation and performance tuning
                 \item \textsb{Site Reliability Engineering}: Deployed services, resolved production incidents, and led post-mortems to strengthen platform resilience
@@ -70,24 +70,22 @@
         {
             \textsb{Cloud Application Platform}
             \begin{cvItems}
-                \item \textsb{Performance}: Enhanced system performance by 1.5x and reduced manual configuration effort by 5x through workflow automation
-                \item \textsb{API Services}: Built a dynamic API publication service aggregating data from multiple databases and streaming sources (Java, Docker, Kubernetes)
-                \item \textsb{Automation}: Designed tooling for Big Data pipeline configuration (Java, PostgreSQL, graph databases)
-                \item \textsb{Low-Code Framework}: Introduced a project generation system to automate data query and processing pipelines, accelerating developer productivity
-                \item \textsb{Mentorship}: Led and mentored two interns; established clear development practices and improved collaborative delivery
+                \item \textsb{Big Data Platform \& Performance}: Designed and delivered a company-wide Big Data pipeline configuration platform, improving system performance by 1.5x and reducing manual configuration effort by 5x (Java, PostgreSQL, graph databases)
+                \item \textsb{Low-Code Data Platform}: Built a low-code platform for dynamic data aggregation and endpoint generation across multiple databases and streaming sources
+                \item \textsb{Mentorship}: Mentored two interns, improving onboarding and development practices
             \end{cvItems}
         }
 
 \cvSection{Education}
 
     \cvEntry
-        {Master of Computer Science} {ITMO University}
+        {} {Master's in Computer Science\ \textbar\ ITMO University}
         {Sep 2021 -- Jun 2023} {}
         {Programming and Artificial Intelligence · Saint Petersburg, Russia}
         {}
 
     \cvEntry
-        {Bachelor of Computer Science} {ITMO University}
+        {}{Bachelor's in Computer Science\ \textbar\ ITMO University}
         {Sep 2017 -- Jun 2021} {}
         {Applied Mathematics and Informatics · Saint Petersburg, Russia}
         {}
@@ -99,7 +97,7 @@
         {Jul 2023} {} {}
         {
             \vspace{-1mm}
-            \href{https://dl.acm.org/doi/10.1145/3583133.3596328}{Empirical Analysis of Crossover-Based Evolutionary Algorithms on Rugged Landscape}
+            Empirical Analysis of Crossover-Based Evolutionary Algorithms on Rugged Landscape
         }
 
     \cvEntry
@@ -107,7 +105,7 @@
         {Sep 2021} {} {}
         {
             \vspace{-1mm}
-            \href{https://dl.acm.org/doi/10.1145/3450218.3477311}{Analysis of Crossover-Based Algorithms on RealJump Functions}
+            Analysis of Crossover-Based Algorithms on RealJump Functions
         }
 
 
