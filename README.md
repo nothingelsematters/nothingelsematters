@@ -11,4 +11,4 @@
 - 2021 - 2023: **MSc in Computer Science** @ ITMO University
 - 2017 - 2021: **BSc in Computer Science** @ ITMO University
 
-[Full Resume](https://github.com/nothingelsematters/nothingelsematters/blob/master/cv.pdf)
+[Full CV](/cv.pdf)
