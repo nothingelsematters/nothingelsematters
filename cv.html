@@ -8,12 +8,18 @@
     <style>
         :root {
             --bg: #ffffff;
+            --paper: #ffffff;
             --text: #171717;
             --muted: #6f6f6f;
             --soft: #9b9b9b;
             --line: #e7e7e7;
+            --line-strong: #d8d8d8;
+            --surface: #fbfbfb;
+            --surface-strong: #f5f5f5;
             --chip: #171717;
-            --radius: 14px;
+            --radius: 18px;
+            --radius-sm: 12px;
+            --shadow-card: 0 1px 0 rgba(0, 0, 0, 0.035), 0 10px 26px rgba(0, 0, 0, 0.045);
         }
 
         * {
@@ -37,14 +43,14 @@
             width: 210mm;
             min-height: 297mm;
             margin: 0 auto;
-            padding: 14mm 18mm 14mm;
-            background: var(--bg);
+            padding: 13mm 15mm 13mm;
+            background: var(--paper);
             box-shadow: 0 24px 80px rgba(0, 0, 0, 0.10);
         }
 
         header {
-            padding-bottom: 18px;
-            border-bottom: 1px solid var(--line);
+            padding: 0 0 14px;
+            border-bottom: 0;
         }
 
         .name {
@@ -52,16 +58,16 @@
             font-size: 46px;
             line-height: 0.95;
             letter-spacing: -0.058em;
-            font-weight: 780;
+            font-weight: 790;
         }
 
         .title {
-            margin: 10px 0 10px;
+            margin: 10px 0 12px;
             color: var(--muted);
-            font-size: 18px;
+            font-size: 17px;
             line-height: 1.25;
             letter-spacing: -0.025em;
-            font-weight: 520;
+            font-weight: 560;
         }
 
         .header-location {
@@ -102,14 +108,14 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            min-height: 28px;
-            padding: 3px 10px;
-            border: 1px solid #d8d8d8;
+            min-height: 29px;
+            padding: 4px 10px;
+            border: 1px solid var(--line-strong);
             border-radius: 999px;
             color: var(--text);
             text-decoration: none;
             font-family: "JetBrains Mono", "SF Mono", "Cascadia Mono", "Roboto Mono", ui-monospace, monospace;
-            font-size: 11.6px;
+            font-size: 11.4px;
             line-height: 1;
             background: #fff;
             box-shadow: 0 1px 0 rgba(0, 0, 0, 0.025);
@@ -121,45 +127,52 @@
         }
 
         section {
-            padding-top: 11px;
+            margin-top: 10px;
+            padding: 12px 13px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            background: var(--surface);
+            box-shadow: var(--shadow-card);
         }
 
         section+section {
-            margin-top: 11px;
+            margin-top: 10px;
             border-top: 1px solid var(--line);
         }
 
         .section-title {
             margin: 0 0 8px;
+            padding: 0;
             color: var(--muted);
-            font-size: 11.8px;
-            letter-spacing: 0;
+            font-size: 10.8px;
+            line-height: 1.25;
+            letter-spacing: 0.02em;
             text-transform: uppercase;
-            font-weight: 760;
+            font-weight: 790;
         }
 
         .summary {
-            max-width: 700px;
+            max-width: 710px;
             margin: 0;
-            font-size: 14.8px;
-            line-height: 1.52;
+            font-size: 14.5px;
+            line-height: 1.46;
             letter-spacing: -0.012em;
         }
 
         .chips {
             display: grid;
             grid-template-columns: 104px 1fr;
-            gap: 5px 10px;
+            gap: 6px 10px;
             align-items: start;
         }
 
         .skill-label {
             color: #3f3f3f;
-            font-size: 12px;
+            font-size: 11.6px;
             line-height: 23px;
             text-transform: none;
             letter-spacing: -0.01em;
-            font-weight: 610;
+            font-weight: 650;
         }
 
         .chip-row {
@@ -176,7 +189,7 @@
             border-radius: 999px;
             background: var(--chip);
             color: #fff;
-            font-size: 11.2px;
+            font-size: 11.1px;
             line-height: 1;
             font-weight: 560;
             letter-spacing: -0.01em;
@@ -185,49 +198,69 @@
         .chip.light {
             background: #fff;
             color: var(--text);
-            border: 1px solid var(--line);
+            border: 1px solid var(--line-strong);
         }
 
         .experience {
             display: grid;
-            gap: 13px;
+            gap: 9px;
+        }
+
+        .role,
+        .entry {
+            padding: 11px 12px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius-sm);
+            background: #fff;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.025);
         }
 
         .role-head {
             display: grid;
             grid-template-columns: 1fr auto;
-            gap: 16px;
-            align-items: baseline;
-            margin-bottom: 4px;
+            gap: 14px;
+            align-items: center;
+            margin-bottom: 5px;
         }
 
         .role-title {
             margin: 0;
-            font-size: 16px;
-            line-height: 1.25;
-            letter-spacing: -0.022em;
-            font-weight: 760;
+            font-size: 15.6px;
+            line-height: 1.23;
+            letter-spacing: -0.024em;
+            font-weight: 780;
         }
 
         .company {
             color: var(--muted);
-            font-weight: 520;
+            font-weight: 550;
         }
 
         .meta {
-            color: var(--muted);
+            display: inline-flex;
+            align-items: center;
+            width: fit-content;
+            min-height: 24px;
+            padding: 3px 8px 4px;
+            border: 1px solid var(--line-strong);
+            border-radius: 999px;
+            background: var(--surface);
+            color: #4f4f4f;
             font-family: "JetBrains Mono", "SF Mono", "Cascadia Mono", "Roboto Mono", ui-monospace, monospace;
-            font-size: 11.7px;
-            line-height: 1.3;
+            font-size: 10.7px;
+            line-height: 1;
             white-space: nowrap;
+            font-weight: 540;
         }
 
         .context {
-            margin: 0 0 2px;
+            margin: 0 0 7px;
+            padding: 0;
             color: var(--muted);
-            font-size: 13.2px;
-            line-height: 1.42;
+            font-size: 12.2px;
+            line-height: 1.35;
             letter-spacing: -0.01em;
+            font-weight: 500;
         }
 
         .team-name {
@@ -248,9 +281,9 @@
         li {
             position: relative;
             margin: 2px 0;
-            padding-left: 18px;
-            font-size: 13.35px;
-            line-height: 1.38;
+            padding-left: 17px;
+            font-size: 12.95px;
+            line-height: 1.34;
             letter-spacing: -0.01em;
         }
 
@@ -266,35 +299,35 @@
         }
 
         .bullet-label {
-            font-weight: 730;
+            font-weight: 750;
         }
 
         .compact-list {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 11px;
+            gap: 8px;
         }
 
         .entry-head {
             display: grid;
             grid-template-columns: 1fr auto;
             gap: 12px;
-            align-items: baseline;
+            align-items: center;
         }
 
         .entry-title {
             margin: 0;
-            font-size: 14.2px;
-            line-height: 1.32;
-            font-weight: 720;
+            font-size: 14px;
+            line-height: 1.28;
+            font-weight: 740;
             letter-spacing: -0.015em;
         }
 
         .entry-subtitle {
-            margin: 2px 0 0;
+            margin: 5px 0 0;
             color: var(--muted);
-            font-size: 12.8px;
-            line-height: 1.4;
+            font-size: 12.5px;
+            line-height: 1.35;
         }
 
         @page {
@@ -315,80 +348,131 @@
             .page {
                 width: 210mm;
                 min-height: 297mm;
-                padding: 8mm 14mm 9mm;
+                padding: 7mm 12mm 8mm;
                 box-shadow: none;
             }
 
             header {
-                padding-bottom: 16px;
+                padding-bottom: 10px;
             }
 
             .name {
-                font-size: 42px;
+                font-size: 40px;
             }
 
             .title {
-                margin-bottom: 8px;
-                font-size: 17px;
+                margin: 8px 0 10px;
+                font-size: 15.8px;
             }
 
-            .header-location {
-                margin-bottom: 13px;
-                font-size: 11.6px;
+            .contact {
+                gap: 5px;
+            }
+
+            .contact a {
+                min-height: 25px;
+                padding: 3px 8px;
+                font-size: 10.7px;
+            }
+
+            .icon {
+                width: 12px;
+                height: 12px;
+                flex-basis: 12px;
             }
 
             section {
-                padding-top: 10px;
+                margin-top: 8px;
+                padding: 9px 10px;
+                border-radius: 14px;
+                box-shadow: none;
             }
 
             section+section {
-                margin-top: 10px;
+                margin-top: 8px;
             }
 
             .section-title {
-                margin-bottom: 7px;
-            }
-
-            .experience {
-                gap: 11px;
-            }
-
-            li {
-                margin: 2px 0;
-                line-height: 1.36;
+                margin-bottom: 6px;
+                font-size: 10.2px;
             }
 
             .summary {
-                font-size: 14px;
-                line-height: 1.42;
+                font-size: 12.85px;
+                line-height: 1.35;
             }
 
-            li {
-                font-size: 12.9px;
-                line-height: 1.32;
-            }
-
-            .context,
-            .team-name {
-                font-size: 12.8px;
-            }
-
-            .role-title {
-                font-size: 15.4px;
-            }
-
-            .meta {
-                font-size: 11.1px;
+            .chips {
+                grid-template-columns: 95px 1fr;
+                gap: 4px 8px;
             }
 
             .chip {
-                min-height: 21px;
-                font-size: 10.9px;
+                min-height: 20px;
+                font-size: 10.2px;
+                padding: 2px 7px 3px;
             }
 
             .skill-label {
-                font-size: 11.4px;
-                line-height: 21px;
+                font-size: 10.6px;
+                line-height: 20px;
+            }
+
+            .experience {
+                gap: 7px;
+            }
+
+            .role,
+            .entry {
+                padding: 8px 9px;
+                border-radius: 11px;
+                box-shadow: none;
+            }
+
+            .role-head {
+                margin-bottom: 4px;
+                gap: 10px;
+            }
+
+            .role-title {
+                font-size: 14.2px;
+            }
+
+            .meta {
+                min-height: 21px;
+                padding: 2px 7px 3px;
+                font-size: 9.9px;
+            }
+
+            .context {
+                margin-bottom: 5px;
+                font-size: 10.9px;
+                line-height: 1.3;
+            }
+
+            li {
+                margin: 1px 0;
+                padding-left: 15px;
+                font-size: 11.75px;
+                line-height: 1.26;
+            }
+
+            li::before {
+                width: 4px;
+                height: 4px;
+            }
+
+            .compact-list {
+                gap: 6px;
+            }
+
+            .entry-title {
+                font-size: 12.8px;
+            }
+
+            .entry-subtitle {
+                margin-top: 4px;
+                font-size: 11.3px;
             }
         }
     </style>
@@ -436,17 +520,18 @@
         <section aria-labelledby="summary-title">
             <h2 class="section-title" id="summary-title">Summary</h2>
             <p class="summary">
-                Software Engineer with 6 years of experience designing, scaling, and operating backend systems in
-                Kotlin, Java, and Rust. Skilled in resilient architectures, high-load services, and leading cross-team
-                technical initiatives. Focused on reliability, performance, and delivering production-ready solutions
-                with measurable impact.
+                Senior Software Engineer with 6 years of experience owning backend systems across logistics,
+                fulfillment, payments, and data-platform domains. Strong in distributed-system design, production
+                reliability, performance, and cross-team technical delivery. Experienced in taking initiatives from
+                architecture and trade-off definition through rollout, operational ownership, and measurable system
+                improvements.
             </p>
         </section>
 
         <section aria-labelledby="skills-title">
             <h2 class="section-title" id="skills-title">Skills</h2>
             <div class="chips">
-                <div class="skill-label">Development</div>
+                <div class="skill-label">Backend</div>
                 <div class="chip-row">
                     <span class="chip">Kotlin</span>
                     <span class="chip">Java</span>
@@ -457,7 +542,7 @@
                     <span class="chip light">Gradle</span>
                 </div>
 
-                <div class="skill-label">Technology</div>
+                <div class="skill-label">Infrastructure</div>
                 <div class="chip-row">
                     <span class="chip">PostgreSQL</span>
                     <span class="chip">Kafka</span>
@@ -468,15 +553,15 @@
                     <span class="chip light">CI/CD</span>
                 </div>
 
-                <div class="skill-label">Engineering</div>
+                <div class="skill-label">Leadership</div>
                 <div class="chip-row">
                     <span class="chip">Distributed Systems</span>
                     <span class="chip">System Design</span>
-                    <span class="chip">Reliability</span>
+                    <span class="chip">Technical Leadership</span>
                     <span class="chip">Cross-Team Rollouts</span>
+                    <span class="chip light">Reliability</span>
                     <span class="chip light">Performance Optimisation</span>
                     <span class="chip light">Incident Management</span>
-                    <span class="chip light">Shadow Testing</span>
                     <span class="chip light">Mentorship</span>
                 </div>
 
@@ -499,21 +584,25 @@
                     </div>
                     <p class="context">Full-time · Berlin, Germany</p>
                     <ul>
-                        <li><span class="bullet-label">Cross-Domain Leadership:</span> Led end-to-end technical design
-                            within Zalando’s logistics and fulfillment domain, coordinating a complex customer-facing
-                            delivery initiative across 4 departments and 7 teams.</li>
-                        <li><span class="bullet-label">Architecture:</span> Redesigned a critical distributed component
-                            by replacing a standalone service with a shared library, eliminating network dependencies,
-                            reducing operational risk, and lowering cloud costs.</li>
-                        <li><span class="bullet-label">Delivery Ownership:</span> Owned backend delivery for 15+
-                            customer-facing features across multiple teams, unblocking dependencies and ensuring
-                            production-ready rollout with Kotlin, Spring Boot, AWS, and Kafka.</li>
+                        <li><span class="bullet-label">Technical Leadership:</span> Owned architecture and cross-team
+                            execution
+                            for a customer-facing initiative in Zalando’s logistics and fulfillment domain, aligning
+                            system design, dependencies, rollout strategy, and delivery risks across 4 departments and
+                            7 teams.</li>
+                        <li><span class="bullet-label">Architecture:</span> Drove the redesign of a critical distributed
+                            component by replacing a standalone service with a shared library, eliminating network
+                            dependencies, reducing operational risk, and lowering cloud costs.</li>
+                        <li><span class="bullet-label">System Ownership:</span> Owned backend delivery for 15+
+                            customer-facing capabilities across multiple teams, driving API design, dependency
+                            management, production readiness, and rollout quality with Kotlin, Spring Boot, AWS, and
+                            Kafka.</li>
                         <li><span class="bullet-label">Operational Excellence:</span> Chaired department-wide
-                            operational reviews, raising standards for incident analysis, alerting, and remediation.
+                            operational reviews, improving incident analysis quality, alerting discipline, remediation
+                            ownership, and reliability follow-through.
                         </li>
-                        <li><span class="bullet-label">Community &amp; Standards:</span> Led Kotlin engineering
-                            standards initiatives across the company, facilitating working sessions, shaping shared
-                            practices, and mentoring engineers on implementation quality.</li>
+                        <li><span class="bullet-label">Engineering Standards:</span> Led company-wide Kotlin engineering
+                            standards initiatives, facilitating technical working sessions, shaping shared practices,
+                            and mentoring engineers on implementation quality and maintainability.</li>
                     </ul>
                 </article>
 
@@ -524,18 +613,18 @@
                     </div>
                     <p class="context">Full-time · Almaty, Kazakhstan</p>
                     <ul>
-                        <li><span class="bullet-label">Transaction Systems:</span> Engineered high-reliability
-                            transaction validation services in the financial payments domain in a high-load production
-                            environment using Rust,
-                            Kubernetes, and gRPC.</li>
+                        <li><span class="bullet-label">Payments Platform:</span> Owned backend engineering for high-load
+                            transaction validation services in the financial payments domain, using Rust, Kubernetes,
+                            and gRPC to support correctness, latency, and production resilience requirements.</li>
                         <li><span class="bullet-label">Resilience:</span> Designed and launched a Stand-In Processing
-                            backup system, reducing downtime and ensuring uninterrupted transaction flow during system
-                            outages.</li>
+                            backup system, preserving transaction continuity during upstream or internal service
+                            outages and reducing downtime impact.</li>
                         <li><span class="bullet-label">Performance:</span> Improved database query efficiency and
-                            microservice throughput via targeted query optimisation and performance tuning.</li>
-                        <li><span class="bullet-label">Site Reliability Engineering:</span> Owned production operations
-                            for transaction services, including deployments, incident response, root-cause analysis, and
-                            post-mortem follow-through.</li>
+                            microservice throughput through profiling, query optimisation, and service-level
+                            performance tuning.</li>
+                        <li><span class="bullet-label">Production Ownership:</span> Owned production operations for
+                            transaction services, including deployments, incident response, root-cause analysis,
+                            post-mortems, and reliability follow-through.</li>
                     </ul>
                 </article>
 
@@ -551,9 +640,9 @@
                             delivered a company-wide Big Data pipeline configuration platform, improving system
                             performance by 1.5x and reducing manual configuration effort by 5x with Java, PostgreSQL,
                             and graph databases.</li>
-                        <li><span class="bullet-label">Low-Code Data Platform:</span> Built a low-code platform for
-                            dynamic data aggregation and endpoint generation across multiple databases and streaming
-                            sources.</li>
+                        <li><span class="bullet-label">Low-Code Data Platform:</span> Built a platform for dynamic
+                            data aggregation and endpoint generation across multiple databases and streaming sources,
+                            reducing repetitive backend implementation work.</li>
                     </ul>
                 </article>
             </div>
